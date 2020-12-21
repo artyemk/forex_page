@@ -4,7 +4,7 @@ from pymongo import MongoClient, DESCENDING
 from datetime import datetime, timedelta, date
 import uuid
 
-db = MongoClient("mongodb://forex:4kFNO7kgWcP8@127.0.0.1/forex").forex
+db = MongoClient("mongodb://myUserAdmin:4kFNO7kgWcP8@127.0.0.1/forex").forex
 
 app = Flask(__name__,static_url_path='',static_folder='')
 app.secret_key = 'the random string'
