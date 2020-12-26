@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://acc-auth.sphdigital.com/standalone/onetap.html -->
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+   <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> --> 
+    <title>MySPH Login</title>
+    
+   <!-- Libs added to make page responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<script type="text/javascript">
+//console.log("One Tap loaded into iFrame.");
+var COOKIE_DOMAIN="sphdigital.com";
+var DEFAULT_SVC="com";
+var DEFAULT_URL="https://sphdigital.com";
+var SESSION_COOKIE_NAME="";
+var PERSISTENT_COOKIE_NAME="sph-session-jwt";
+var AM_URL="https://"+ window.location.hostname +"/amserver";
+var SPHAuthBaseURL ="https://"+ window.location.hostname +"/SPHAuth";
+//console.log("one tap host url::"+window.location.hostname);
+if(window.location.hostname=="ds-acc-auth.sphdigital.com"){
+    SESSION_COOKIE_NAME="dsSPHiPlanetDirectoryPro";
+} else if(window.location.hostname=="acc-auth.sphdigital.com"){
+    SESSION_COOKIE_NAME="SPHiPlanetDirectoryPro";
+}
+
+if (checkCookie(getCookie(SESSION_COOKIE_NAME)) && checkCookie(getCookie(PERSISTENT_COOKIE_NAME))) {
+	
+	//console.log("Session Token Found");
+	var json = {NoValidSession:false};
+	window.parent.postMessage(JSON.stringify(json), "*");
+	//console.log("Persistent Cookie Found from one tap!!");
+} 
+else
+{
+	var json = {NoValidSession:true};
+	window.parent.postMessage(JSON.stringify(json), "*");
+	//console.log("Persistent Not Cookie Found from one tap!!");
+}
+
+
+function getCookie(cname) {
+	var name = cname + "=";
+	var ca = document.cookie.split(';');
+	for (var i = 0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0) == ' ') {
+			c = c.substring(1);
+		}
+		if (c.indexOf(name) == 0) {
+			return c.substring(name.length, c.length);
+		}
+	}
+	return "";
+}
+function checkCookie(cookie) {
+	if (cookie != "") {
+		return true;
+	} else {
+		//console.log("Cookie not found from one tap!!");
+		return false;
+	}
+}
+
+</script>
+
+
+</body></html>

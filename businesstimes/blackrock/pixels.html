@@ -1,0 +1,22 @@
+
+<!-- saved from url=(0069)https://bcp.crwdcntrl.net/pixels?s=22%2C61%2C12%2C125%2C78%2C8&c=4342 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><div><img src="./pixel(1)" height="1" width="1"><img src="./utsync.ashx" width="1" height="1"><img src="./5907" width="1" height="1"><img src="./insync" width="1" height="1"><img src="./image.sbxx" width="1" height="1"><script>
+function processTargusData(json)
+{
+   if (json != null) {
+       if (json.targus != null) {
+            u = "";
+            v = "map";
+            if (json.targus.sk != null && json.targus.sk != "") {
+                u += "/tp=TARG/tpid=" + json.targus.sk;
+            }
+            if (u != "") {
+              var img = new Image();
+              img.src = "https://sync.crwdcntrl.net/" + v + "/c=368" + u;
+              document.body.appendChild(img);
+            }
+        }
+   }
+}
+</script>
+<script src="./g.json"></script></div><img src="./tpid=164550303567001054506"></body></html>
