@@ -1,0 +1,125 @@
+@media print {
+	* {
+		background: transparent !important;
+		color: #000 !important;
+		text-shadow: none !important;
+		filter:none !important;
+		-ms-filter: none !important;
+		box-shadow: none !important;
+	}
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+	.b-article a[href]:after {
+		content: " (https://kommersant.ru" attr(href) ")";
+	}
+	.b-article a[href^=http]:after {
+		content: " (" attr(href) ")";
+	}
+
+	@page {
+		margin: 1cm 2cm;
+	}
+	p, h2, h3, h4 {
+		orphans: 3;
+		widows: 3;
+	}
+	h2,
+	h3,
+	h4 {
+		page-break-after: avoid;
+	}
+	[class^=adv],
+	[class^=tgb],
+	[class^=b-tgb_uho],
+	[class^=b-tgb_chain],
+	.loading,
+	.fluid-width-video-wrapper,
+	.push_notification,
+	.nr-player,
+	.fixed_panel,
+	.popup_menu,
+	.fixed_bottom,
+	.col-small,
+	.grid_cell_small,
+	.col > *,
+	.grid_cell > *,
+	.printable > *,
+	.printable > .lazyload > *,
+	.title__cake,
+	.b-article-media,
+	.b-article .icons,
+	.article_sharing,
+	.b-incut__left,
+	.b-incut__right,
+	.b-article__bracket,
+	.tquote,
+	.b-article__footer_nav,
+	.b-article__social,
+	.b-article__button,
+	.b-archive_link,
+	.b-auth_panel,
+	.b-main_navsection,
+	.b-main_navmenu,
+	.b-main_navsection-menus,
+	.main_footer,
+	.doc_nav,
+	.main_header__aside,
+	.lenta__item,
+	.b-article .slider,
+	.doc_footer .tumbler {
+		display: none !important;
+	}
+	.col-big,
+	.col-large,
+	.col-huge,
+	.grid_cell_big,
+	.grid_cell_large {
+		width: 100% !important;
+		max-width: none;
+	}
+	.grid {
+		width: auto !important;
+	}
+	.layout {
+		width: auto !important;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.col > .col-big,
+	.col > .col-large,
+	.col > .col-huge,
+	.grid .grid_cell_big,
+	.grid > .grid_cell_large {
+		display: block !important;
+		margin-left: 0 !important;
+	}
+
+	.lenta,
+	.lenta > .lazyload,
+	.lenta > .printable,
+	.lenta > .printable > .lazyload,
+	.b-article:not(.lenta__item),
+	.article_text_wrapper,
+	.lenta .lenta__item--current {
+		display: block !important;
+	}
+	.col-big .col_group,
+	.col-large .col_group,
+	.col-huge .col_group,
+	.grid_cell_big .grid,
+	.grid_cell_large .grid {
+		display: block !important;
+	}
+	.b-logo {
+		display: block !important;
+		margin-bottom: .5cm;
+	}
+	.b-logo__img {
+		margin-left: 0;
+	}
+	.b-article_issue_number {
+		border: none !important;
+	}
+}

@@ -13,7 +13,7 @@ app.secret_key = 'the random string'
 
 @app.route("/")
 def home():
-    return render_template('otziv_2.html', comments=db.scomments.find(sort=[( '_id', DESCENDING )]))
+    return render_template('otziv_3.html', comments=db.scomments.find(sort=[( '_id', DESCENDING )]))
 
 @app.route("/add_comment")
 def add_comment():
