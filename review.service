@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve myproject
+After=network.target
+
+[Service]
+WorkingDirectory=/root/cash
+ExecStart=/usr/local/bin/gunicorn -b :4000 -w 1 web:app && /usr/local/bin/gunicorn -b :4001 -w 1 web2:app && /usr/local/bin/gunicorn -b :4002 -w 1 web3:app
+
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
