@@ -2050,7 +2050,7 @@
                             <div class="form-group row">
                               <label class="col-sm-2 form-control-label"></label>
                               <div class="col-sm-10">
-                                <button type="submit" name="addcomment" class="btn btn-success">Добавить отзыв</button> <a class="btn btn-secondary collapsed" data-toggle="collapse" href="#addcomment" aria-expanded="false">Отменить</a>
+                                <button type="submit" name="addcomment" class="btn btn-success">Добавить отзыв</button>
                               </div>
                             </div>
                           </form>
@@ -2059,7 +2059,62 @@
 
 
 
+                      {%for comment in comments%}
 
+                      <div data-id="comment_59672" itemprop="review" itemscope="" itemtype="https://schema.org/Review">
+                        <div class="comments_group">
+                          <div itemprop="itemReviewed" itemscope="" itemtype="https://schema.org/BankOrCreditUnion">
+                            <meta itemprop="name" content="NPBFX">
+                            <meta content="https://forex-ratings.ru/npbfx/">
+                          </div>
+                
+                          <div itemprop="reviewRating" itemscope="" itemtype="https://schema.org/Rating">
+                            <meta itemprop="worstRating" content="1">
+                            <meta itemprop="bestRating" content="5">
+                            <meta itemprop="ratingValue" content="5">
+                          </div>
+                          <meta itemprop="author" content="valera-sf">
+                          <meta itemprop="datePublished" content="2020-11-20">
+                          <meta itemprop="name" content="Почитал отзывы. даже нечего и добавить. за меня уже все написали. Мимо">
+                          <div itemprop="reviewBody">
+                            <p>{{comment["comment"]}}</p>
+                          </div>
+                
+                          {%if admin == "true"%}
+                          <p class="small text-muted"><b>{{comment["name"]}}</b> &nbsp; {{comment["date"]}} &nbsp; <a data-toggle="collapse"
+                              href="https://forex-ratings.ru/npbfx/#comment_59672" data-id='{{comment["id"]}}' aria-expanded="false" class="ilink"
+                              rel="nofollow">Редактировать</a></p>
+                            
+                
+                          <div class="collapse" id="{{comment['id']}}">
+                            <div class="comment comment-block">
+                              <form action="/alter_comment?comment={{comment['id']}}" method="post">
+                                <input type="hidden" name="bank" value="149">
+                                <input type="hidden" name="parent" value="59672">
+                                <input type="hidden" name="token" value="81637">
+                                <div class="form-group row">
+                                  <label class="col-sm-2 form-control-label">Отзыв</label>
+                                  <div class="col-sm-10">
+                                    <textarea name="comment" class="form-control" rows="2" required=""></textarea>
+                                  </div>
+                                </div>
+                
+                                <div class="form-group row">
+                                  <label class="col-sm-2 form-control-label"></label>
+                                  <div class="col-sm-10">
+                                    <button type="submit" name="addcomment" class="btn btn-success">Редактировать отзыв</button>
+                                  </div>
+                                </div>
+                
+                              </form>
+                            </div>
+                          </div>
+                          {%endif%}
+                
+                        </div>
+                      </div>
+                
+                      {%endfor%}
 
 
 
