@@ -531,10 +531,12 @@
           <div itemprop="reviewBody">
             <p>{{comment["comment"]}}</p>
           </div>
+
+          {%if admin == "true"%}
           <p class="small text-muted"><b>{{comment["name"]}}</b> &nbsp; {{comment["date"]}} &nbsp; <a data-toggle="collapse"
               href="https://forex-ratings.ru/npbfx/#comment_59672" data-id='{{comment["id"]}}' aria-expanded="false" class="ilink"
               rel="nofollow">Редактировать</a></p>
-
+            
 
           <div class="collapse" id="{{comment['id']}}">
             <div class="comment comment-block">
@@ -559,6 +561,7 @@
               </form>
             </div>
           </div>
+          {%endif%}
 
         </div>
       </div>
