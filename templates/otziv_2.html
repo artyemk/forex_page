@@ -834,7 +834,9 @@
                                         href="">Alpari</a>
                                 </div>
                                 <div class="comment-user">{{comment["name"]}}</div>
-                                <a href="/add_comment?admin=1&id={{comment['id']}}" class="comment-answer reply_review" data-broker="15" id="rev_15898" ><i></i>Ответить</a>
+                                {%if admin == "true"%}
+                                <a href="/add_comment?admin=1&id={{comment['id']}}" class="comment-answer reply_review" data-broker="15" id="rev_15898" ><i></i>Редактировать</a>
+                                {%endif%}
                                 <div class="comment-date"><i></i>{{comment["date"]}}</div>
                                 <div class="clr"></div>
                             </div>
