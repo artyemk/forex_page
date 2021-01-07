@@ -16,31 +16,31 @@ def home():
     admin = ""
     if request.args.get("admin") == "0398daed503b4ca7a3833bafaa959611":
         admin = "true"
-    return render_template('otziv_3.html', comments=db.scomments.find(sort=[( '_id', DESCENDING )]), admin=admin)
+    return render_template('otziv_3.html', comments=db.thcomments.find(sort=[( '_id', DESCENDING )]), admin=admin)
 
 @app.route("/add_comment")
 def add_comment():
     if request.args.get('admin') == "1":
-        return render_template('add_comment.html', admin=True, comment=db.scomments.find_one({"id" : request.args.get('id')}) )
+        return render_template('add_comment.html', admin=True, comment=db.thcomments.find_one({"id" : request.args.get('id')}) )
     return render_template('add_comment.html', admin=False)
 
 @app.route("/insert_comment", methods=["POST"])
 def insert_comment():
     print(request.form)
-    db.scomments.insert_one({ "date" : datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "id" : uuid.uuid4().hex, "name" : request.form.get('name'), "comment" : request.form.get('comment') })
+    db.thcomments.insert_one({ "date" : datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "id" : uuid.uuid4().hex, "name" : request.form.get('name'), "comment" : request.form.get('comment') })
     return redirect("/")
 
 @app.route("/delete_comment")
 def delete_comment():
     comment_id = request.args.get('comment')
-    db.scomments.delete_one({"id" : comment_id})
+    db.thcomments.delete_one({"id" : comment_id})
     return redirect("/")
 
 @app.route("/alter_comment", methods=["POST"])
 def alter_comment():
     # if request.form.get('token') == "фыв"
     comment_id = request.args.get('comment')
-    db.scomments.update_one({"id" : comment_id}, {"$set" : {"comment" : request.form.get('comment')}})
+    db.thcomments.update_one({"id" : comment_id}, {"$set" : {"comment" : request.form.get('comment')}})
     return redirect("/#addcomment")
 
 if __name__ == "__main__":
