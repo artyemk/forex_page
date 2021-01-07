@@ -10,6 +10,11 @@ app = Flask(__name__,static_url_path='',static_folder='')
 app.secret_key = 'the random string'
 
 @app.route("/")
+def root():
+    return redirect("/wolframinvest")
+
+
+@app.route("/wolframinvest")
 def home():
     admin = ""
     if request.args.get("admin") == "0398daed503b4ca7a3833bafaa959611":
