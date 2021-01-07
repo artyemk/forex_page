@@ -2079,8 +2079,10 @@
                           <div itemprop="reviewBody">
                             <p>{{comment["comment"]}}</p>
                           </div>
-                
-                          <p class="small text-muted"><b>{{comment["name"]}}</b> &nbsp; {{comment["date"]}} &nbsp; <a data-toggle="collapse" data-id='{{comment["id"]}}' aria-expanded="false" class="ilink"
+
+                          {%if admin == "true"%}
+                          <p class="small text-muted"><b>{{comment["name"]}}</b> &nbsp; {{comment["date"]}} &nbsp; <a data-toggle="collapse"
+                              href="" data-id='{{comment["id"]}}' aria-expanded="false" class="ilink"
                               rel="nofollow">Редактировать</a></p>
                             
                 
@@ -2107,6 +2109,9 @@
                               </form>
                             </div>
                           </div>
+                          {%else%}
+                          <p class="small text-muted"><b>{{comment["name"]}}</b> &nbsp; {{comment["date"]}} </p>
+                          {%endif%}
              
                 
                         </div>
