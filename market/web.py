@@ -6,7 +6,7 @@ app.secret_key = 'the random string'
 
 @app.route("/blackrock_wolfram")
 def home():
-    return render_template('blackrock-sees-rip-van-winkle-risks-as-globalization-unwinds.html')
+    return render_template('blackrock-vows-to-support-more-shareholder-votes-on-climate-change-11607626325049b.html')
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5100)

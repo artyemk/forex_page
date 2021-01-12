@@ -757,3 +757,226 @@ ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name
 [2021-01-12 07:14:15 +0000] [137337] [INFO] Listening at: http://0.0.0.0:5105 (137337)
 [2021-01-12 07:14:15 +0000] [137337] [INFO] Using worker: sync
 [2021-01-12 07:14:15 +0000] [137358] [INFO] Booting worker with pid: 137358
+[2021-01-12 07:14:53 +0000] [137333] [CRITICAL] WORKER TIMEOUT (pid:137353)
+[2021-01-12 07:14:53 +0000] [137353] [INFO] Worker exiting (pid: 137353)
+[2021-01-12 07:14:53 +0000] [137385] [INFO] Booting worker with pid: 137385
+[2021-01-12 07:15:12 +0000] [137334] [CRITICAL] WORKER TIMEOUT (pid:137352)
+[2021-01-12 07:15:12 +0000] [137352] [INFO] Worker exiting (pid: 137352)
+[2021-01-12 07:15:12 +0000] [137408] [INFO] Booting worker with pid: 137408
+[2021-01-12 07:15:43 +0000] [137334] [CRITICAL] WORKER TIMEOUT (pid:137408)
+[2021-01-12 07:15:43 +0000] [137408] [INFO] Worker exiting (pid: 137408)
+[2021-01-12 07:15:43 +0000] [137424] [INFO] Booting worker with pid: 137424
+[2021-01-12 07:16:14 +0000] [137334] [CRITICAL] WORKER TIMEOUT (pid:137424)
+[2021-01-12 07:16:14 +0000] [137424] [INFO] Worker exiting (pid: 137424)
+[2021-01-12 07:16:15 +0000] [137427] [INFO] Booting worker with pid: 137427
+[2021-01-12 07:16:46 +0000] [137334] [CRITICAL] WORKER TIMEOUT (pid:137427)
+[2021-01-12 07:16:46 +0000] [137427] [INFO] Worker exiting (pid: 137427)
+[2021-01-12 07:16:46 +0000] [137436] [INFO] Booting worker with pid: 137436
+[2021-01-12 07:17:17 +0000] [137334] [CRITICAL] WORKER TIMEOUT (pid:137436)
+[2021-01-12 07:17:17 +0000] [137436] [INFO] Worker exiting (pid: 137436)
+[2021-01-12 07:17:17 +0000] [137446] [INFO] Booting worker with pid: 137446
+[2021-01-12 08:30:28 +0000] [137332] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137330] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137343] [INFO] Worker exiting (pid: 137343)
+[2021-01-12 08:30:28 +0000] [137338] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137356] [INFO] Worker exiting (pid: 137356)
+[2021-01-12 08:30:28 +0000] [137344] [INFO] Worker exiting (pid: 137344)
+[2021-01-12 08:30:28 +0000] [137346] [INFO] Worker exiting (pid: 137346)
+[2021-01-12 08:30:28 +0000] [137337] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137358] [INFO] Worker exiting (pid: 137358)
+[2021-01-12 08:30:28 +0000] [137354] [INFO] Worker exiting (pid: 137354)
+[2021-01-12 08:30:28 +0000] [137334] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137446] [INFO] Worker exiting (pid: 137446)
+[2021-01-12 08:30:28 +0000] [137333] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137348] [INFO] Worker exiting (pid: 137348)
+[2021-01-12 08:30:28 +0000] [137329] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137336] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137335] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137347] [INFO] Worker exiting (pid: 137347)
+[2021-01-12 08:30:28 +0000] [137331] [INFO] Handling signal: term
+[2021-01-12 08:30:28 +0000] [137385] [INFO] Worker exiting (pid: 137385)
+[2021-01-12 08:30:28 +0000] [137337] [INFO] Shutting down: Master
+[2021-01-12 08:30:28 +0000] [137334] [INFO] Shutting down: Master
+[2021-01-12 08:30:28 +0000] [137333] [INFO] Shutting down: Master
+[2021-01-12 08:30:28 +0000] [137336] [INFO] Shutting down: Master
+[2021-01-12 08:30:28 +0000] [137335] [INFO] Shutting down: Master
+[2021-01-12 08:30:28 +0000] [137332] [INFO] Shutting down: Master
+[2021-01-12 08:30:28 +0000] [137338] [INFO] Shutting down: Master
+[2021-01-12 08:30:29 +0000] [137329] [INFO] Shutting down: Master
+[2021-01-12 08:30:29 +0000] [137330] [INFO] Shutting down: Master
+[2021-01-12 08:30:29 +0000] [137331] [INFO] Shutting down: Master
+[2021-01-12 08:30:34 +0000] [138508] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138508] [INFO] Listening at: http://0.0.0.0:5100 (138508)
+[2021-01-12 08:30:34 +0000] [138508] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138512] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138512] [INFO] Listening at: http://0.0.0.0:5104 (138512)
+[2021-01-12 08:30:34 +0000] [138512] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138513] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138513] [INFO] Listening at: http://0.0.0.0:5105 (138513)
+[2021-01-12 08:30:34 +0000] [138513] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138514] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138514] [INFO] Listening at: http://0.0.0.0:5106 (138514)
+[2021-01-12 08:30:34 +0000] [138514] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138509] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138525] [INFO] Booting worker with pid: 138525
+[2021-01-12 08:30:34 +0000] [138507] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138510] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138510] [INFO] Listening at: http://0.0.0.0:5102 (138510)
+[2021-01-12 08:30:34 +0000] [138510] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138526] [INFO] Booting worker with pid: 138526
+[2021-01-12 08:30:34 +0000] [138527] [INFO] Booting worker with pid: 138527
+[2021-01-12 08:30:34 +0000] [138509] [INFO] Listening at: http://0.0.0.0:5101 (138509)
+[2021-01-12 08:30:34 +0000] [138509] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138506] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138506] [INFO] Listening at: http://0.0.0.0:4001 (138506)
+[2021-01-12 08:30:34 +0000] [138506] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138507] [INFO] Listening at: http://0.0.0.0:4002 (138507)
+[2021-01-12 08:30:34 +0000] [138507] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138532] [INFO] Booting worker with pid: 138532
+[2021-01-12 08:30:34 +0000] [138533] [INFO] Booting worker with pid: 138533
+[2021-01-12 08:30:34 +0000] [138535] [INFO] Booting worker with pid: 138535
+[2021-01-12 08:30:34 +0000] [138534] [INFO] Booting worker with pid: 138534
+[2021-01-12 08:30:34 +0000] [138536] [INFO] Booting worker with pid: 138536
+[2021-01-12 08:30:34 +0000] [138505] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138505] [INFO] Listening at: http://0.0.0.0:4000 (138505)
+[2021-01-12 08:30:34 +0000] [138505] [INFO] Using worker: sync
+[2021-01-12 08:30:34 +0000] [138511] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:30:34 +0000] [138511] [INFO] Listening at: http://0.0.0.0:5103 (138511)
+[2021-01-12 08:30:34 +0000] [138511] [INFO] Using worker: sync
+[2021-01-12 08:30:35 +0000] [138541] [INFO] Booting worker with pid: 138541
+[2021-01-12 08:30:35 +0000] [138540] [INFO] Booting worker with pid: 138540
+[2021-01-12 08:34:44,475] ERROR in app: Exception on /blackrock_wolfram [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/forex_page/market/web.py", line 9, in home
+    return render_template('blackrock-sees-rip-van-winkle-risks-as-globalization-unwinds.html')
+  File "/usr/local/lib/python3.8/dist-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python3.8/dist-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/usr/local/lib/python3.8/dist-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: blackrock-sees-rip-van-winkle-risks-as-globalization-unwinds.html
+[2021-01-12 08:38:00 +0000] [138505] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138540] [INFO] Worker exiting (pid: 138540)
+[2021-01-12 08:38:00 +0000] [138508] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138507] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138506] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138525] [INFO] Worker exiting (pid: 138525)
+[2021-01-12 08:38:00 +0000] [138535] [INFO] Worker exiting (pid: 138535)
+[2021-01-12 08:38:00 +0000] [138536] [INFO] Worker exiting (pid: 138536)
+[2021-01-12 08:38:00 +0000] [138509] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138534] [INFO] Worker exiting (pid: 138534)
+[2021-01-12 08:38:00 +0000] [138514] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138532] [INFO] Worker exiting (pid: 138532)
+[2021-01-12 08:38:00 +0000] [138513] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138510] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138511] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138527] [INFO] Worker exiting (pid: 138527)
+[2021-01-12 08:38:00 +0000] [138541] [INFO] Worker exiting (pid: 138541)
+[2021-01-12 08:38:00 +0000] [138512] [INFO] Handling signal: term
+[2021-01-12 08:38:00 +0000] [138526] [INFO] Worker exiting (pid: 138526)
+[2021-01-12 08:38:00 +0000] [138533] [INFO] Worker exiting (pid: 138533)
+[2021-01-12 08:38:00 +0000] [138509] [INFO] Shutting down: Master
+[2021-01-12 08:38:00 +0000] [138508] [INFO] Shutting down: Master
+[2021-01-12 08:38:00 +0000] [138513] [INFO] Shutting down: Master
+[2021-01-12 08:38:00 +0000] [138512] [INFO] Shutting down: Master
+[2021-01-12 08:38:00 +0000] [138514] [INFO] Shutting down: Master
+[2021-01-12 08:38:01 +0000] [138510] [INFO] Shutting down: Master
+[2021-01-12 08:38:01 +0000] [138511] [INFO] Shutting down: Master
+[2021-01-12 08:38:01 +0000] [138506] [INFO] Shutting down: Master
+[2021-01-12 08:38:01 +0000] [138505] [INFO] Shutting down: Master
+[2021-01-12 08:38:01 +0000] [138507] [INFO] Shutting down: Master
+[2021-01-12 08:38:06 +0000] [138767] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:06 +0000] [138769] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:06 +0000] [138767] [INFO] Listening at: http://0.0.0.0:4000 (138767)
+[2021-01-12 08:38:06 +0000] [138767] [INFO] Using worker: sync
+[2021-01-12 08:38:06 +0000] [138769] [INFO] Listening at: http://0.0.0.0:4002 (138769)
+[2021-01-12 08:38:06 +0000] [138769] [INFO] Using worker: sync
+[2021-01-12 08:38:06 +0000] [138781] [INFO] Booting worker with pid: 138781
+[2021-01-12 08:38:06 +0000] [138770] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:06 +0000] [138770] [INFO] Listening at: http://0.0.0.0:5100 (138770)
+[2021-01-12 08:38:06 +0000] [138770] [INFO] Using worker: sync
+[2021-01-12 08:38:06 +0000] [138783] [INFO] Booting worker with pid: 138783
+[2021-01-12 08:38:06 +0000] [138784] [INFO] Booting worker with pid: 138784
+[2021-01-12 08:38:07 +0000] [138776] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:07 +0000] [138776] [INFO] Listening at: http://0.0.0.0:5106 (138776)
+[2021-01-12 08:38:07 +0000] [138776] [INFO] Using worker: sync
+[2021-01-12 08:38:07 +0000] [138774] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:07 +0000] [138786] [INFO] Booting worker with pid: 138786
+[2021-01-12 08:38:07 +0000] [138774] [INFO] Listening at: http://0.0.0.0:5104 (138774)
+[2021-01-12 08:38:07 +0000] [138774] [INFO] Using worker: sync
+[2021-01-12 08:38:07 +0000] [138772] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:07 +0000] [138772] [INFO] Listening at: http://0.0.0.0:5102 (138772)
+[2021-01-12 08:38:07 +0000] [138772] [INFO] Using worker: sync
+[2021-01-12 08:38:07 +0000] [138773] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:07 +0000] [138773] [INFO] Listening at: http://0.0.0.0:5103 (138773)
+[2021-01-12 08:38:07 +0000] [138773] [INFO] Using worker: sync
+[2021-01-12 08:38:07 +0000] [138790] [INFO] Booting worker with pid: 138790
+[2021-01-12 08:38:07 +0000] [138775] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:07 +0000] [138768] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:07 +0000] [138768] [INFO] Listening at: http://0.0.0.0:4001 (138768)
+[2021-01-12 08:38:07 +0000] [138768] [INFO] Using worker: sync
+[2021-01-12 08:38:07 +0000] [138793] [INFO] Booting worker with pid: 138793
+[2021-01-12 08:38:07 +0000] [138775] [INFO] Listening at: http://0.0.0.0:5105 (138775)
+[2021-01-12 08:38:07 +0000] [138775] [INFO] Using worker: sync
+[2021-01-12 08:38:07 +0000] [138796] [INFO] Booting worker with pid: 138796
+[2021-01-12 08:38:07 +0000] [138794] [INFO] Booting worker with pid: 138794
+[2021-01-12 08:38:07 +0000] [138795] [INFO] Booting worker with pid: 138795
+[2021-01-12 08:38:07 +0000] [138771] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 08:38:07 +0000] [138771] [INFO] Listening at: http://0.0.0.0:5101 (138771)
+[2021-01-12 08:38:07 +0000] [138771] [INFO] Using worker: sync
+[2021-01-12 08:38:07 +0000] [138799] [INFO] Booting worker with pid: 138799
+[2021-01-12 08:38:10,158] ERROR in app: Exception on /blackrock_wolfram [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/forex_page/market/web.py", line 9, in home
+    return render_template('blackrock-vows-to-support-more-shareholder-votes-on-climate-change-11607626325049b.html')
+  File "/usr/local/lib/python3.8/dist-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<unknown>", line 88, in template
+jinja2.exceptions.TemplateSyntaxError: Missing end of comment tag
