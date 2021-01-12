@@ -1,0 +1,759 @@
+[2021-01-06 14:33:46 +0000] [3550] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:33:46 +0000] [3550] [ERROR] Invalid address: ('4001', 8000)
+[2021-01-06 14:33:46 +0000] [3550] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:46 +0000] [3549] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:33:46 +0000] [3549] [ERROR] Invalid address: ('4000', 8000)
+[2021-01-06 14:33:46 +0000] [3549] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:46 +0000] [3551] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:33:46 +0000] [3551] [ERROR] Invalid address: ('4002', 8000)
+[2021-01-06 14:33:46 +0000] [3551] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:47 +0000] [3550] [ERROR] Invalid address: ('4001', 8000)
+[2021-01-06 14:33:47 +0000] [3550] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:47 +0000] [3549] [ERROR] Invalid address: ('4000', 8000)
+[2021-01-06 14:33:47 +0000] [3549] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:47 +0000] [3551] [ERROR] Invalid address: ('4002', 8000)
+[2021-01-06 14:33:47 +0000] [3551] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:48 +0000] [3550] [ERROR] Invalid address: ('4001', 8000)
+[2021-01-06 14:33:48 +0000] [3550] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:48 +0000] [3549] [ERROR] Invalid address: ('4000', 8000)
+[2021-01-06 14:33:48 +0000] [3549] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:48 +0000] [3551] [ERROR] Invalid address: ('4002', 8000)
+[2021-01-06 14:33:48 +0000] [3551] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:49 +0000] [3550] [ERROR] Invalid address: ('4001', 8000)
+[2021-01-06 14:33:49 +0000] [3550] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:49 +0000] [3549] [ERROR] Invalid address: ('4000', 8000)
+[2021-01-06 14:33:49 +0000] [3549] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:49 +0000] [3551] [ERROR] Invalid address: ('4002', 8000)
+[2021-01-06 14:33:49 +0000] [3551] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:50 +0000] [3550] [ERROR] Invalid address: ('4001', 8000)
+[2021-01-06 14:33:50 +0000] [3550] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:50 +0000] [3549] [ERROR] Invalid address: ('4000', 8000)
+[2021-01-06 14:33:50 +0000] [3549] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:50 +0000] [3551] [ERROR] Invalid address: ('4002', 8000)
+[2021-01-06 14:33:50 +0000] [3551] [ERROR] Retrying in 1 second.
+[2021-01-06 14:33:51 +0000] [3550] [ERROR] Can't connect to ('4001', 8000)
+[2021-01-06 14:33:51 +0000] [3549] [ERROR] Can't connect to ('4000', 8000)
+[2021-01-06 14:33:51 +0000] [3551] [ERROR] Can't connect to ('4002', 8000)
+[2021-01-06 14:35:03 +0000] [3816] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:35:03 +0000] [3816] [INFO] Listening at: http://0.0.0.0:4000 (3816)
+[2021-01-06 14:35:03 +0000] [3816] [INFO] Using worker: sync
+[2021-01-06 14:35:03 +0000] [3821] [INFO] Booting worker with pid: 3821
+[2021-01-06 14:35:03 +0000] [3818] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:35:03 +0000] [3818] [INFO] Listening at: http://0.0.0.0:4002 (3818)
+[2021-01-06 14:35:03 +0000] [3818] [INFO] Using worker: sync
+[2021-01-06 14:35:03 +0000] [3822] [INFO] Booting worker with pid: 3822
+[2021-01-06 14:35:03 +0000] [3817] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:35:03 +0000] [3817] [INFO] Listening at: http://0.0.0.0:4001 (3817)
+[2021-01-06 14:35:03 +0000] [3817] [INFO] Using worker: sync
+[2021-01-06 14:35:03 +0000] [3824] [INFO] Booting worker with pid: 3824
+[2021-01-06 14:35:50 +0000] [3818] [CRITICAL] WORKER TIMEOUT (pid:3822)
+[2021-01-06 14:35:50 +0000] [3822] [INFO] Worker exiting (pid: 3822)
+[2021-01-06 14:35:50 +0000] [3959] [INFO] Booting worker with pid: 3959
+[2021-01-06 14:35:55 +0000] [3816] [INFO] Handling signal: term
+[2021-01-06 14:35:55 +0000] [3824] [INFO] Worker exiting (pid: 3824)
+[2021-01-06 14:35:55 +0000] [3818] [INFO] Handling signal: term
+[2021-01-06 14:35:55 +0000] [3817] [INFO] Handling signal: term
+[2021-01-06 14:35:55 +0000] [3821] [INFO] Worker exiting (pid: 3821)
+[2021-01-06 14:35:55 +0000] [3816] [INFO] Shutting down: Master
+[2021-01-06 14:35:55 +0000] [3817] [INFO] Shutting down: Master
+[2021-01-06 14:35:58 +0000] [3959] [INFO] Worker exiting (pid: 3959)
+[2021-01-06 14:35:59 +0000] [3818] [INFO] Shutting down: Master
+[2021-01-06 14:41:06 +0000] [4453] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:41:06 +0000] [4453] [INFO] Listening at: http://0.0.0.0:4001 (4453)
+[2021-01-06 14:41:06 +0000] [4453] [INFO] Using worker: sync
+[2021-01-06 14:41:06 +0000] [4456] [INFO] Booting worker with pid: 4456
+[2021-01-06 14:41:06 +0000] [4452] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:41:06 +0000] [4452] [INFO] Listening at: http://0.0.0.0:4000 (4452)
+[2021-01-06 14:41:06 +0000] [4452] [INFO] Using worker: sync
+[2021-01-06 14:41:07 +0000] [4458] [INFO] Booting worker with pid: 4458
+[2021-01-06 14:41:07 +0000] [4454] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:41:07 +0000] [4454] [INFO] Listening at: http://0.0.0.0:4002 (4454)
+[2021-01-06 14:41:07 +0000] [4454] [INFO] Using worker: sync
+[2021-01-06 14:41:07 +0000] [4460] [INFO] Booting worker with pid: 4460
+[2021-01-06 14:41:25 +0000] [4452] [INFO] Handling signal: term
+[2021-01-06 14:41:25 +0000] [4458] [INFO] Worker exiting (pid: 4458)
+[2021-01-06 14:41:25 +0000] [4453] [INFO] Handling signal: term
+[2021-01-06 14:41:25 +0000] [4456] [INFO] Worker exiting (pid: 4456)
+[2021-01-06 14:41:25 +0000] [4454] [INFO] Handling signal: term
+[2021-01-06 14:41:25 +0000] [4460] [INFO] Worker exiting (pid: 4460)
+[2021-01-06 14:41:25 +0000] [4453] [INFO] Shutting down: Master
+[2021-01-06 14:41:25 +0000] [4454] [INFO] Shutting down: Master
+[2021-01-06 14:41:25 +0000] [4452] [INFO] Shutting down: Master
+[2021-01-06 14:49:00 +0000] [4590] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:49:00 +0000] [4590] [INFO] Listening at: http://0.0.0.0:4000 (4590)
+[2021-01-06 14:49:00 +0000] [4590] [INFO] Using worker: sync
+[2021-01-06 14:49:00 +0000] [4594] [INFO] Booting worker with pid: 4594
+[2021-01-06 14:49:00 +0000] [4592] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:49:00 +0000] [4592] [INFO] Listening at: http://0.0.0.0:4002 (4592)
+[2021-01-06 14:49:00 +0000] [4592] [INFO] Using worker: sync
+[2021-01-06 14:49:00 +0000] [4596] [INFO] Booting worker with pid: 4596
+[2021-01-06 14:49:00 +0000] [4591] [INFO] Starting gunicorn 20.0.4
+[2021-01-06 14:49:00 +0000] [4591] [INFO] Listening at: http://0.0.0.0:4001 (4591)
+[2021-01-06 14:49:00 +0000] [4591] [INFO] Using worker: sync
+[2021-01-06 14:49:00 +0000] [4598] [INFO] Booting worker with pid: 4598
+[2021-01-07 07:28:07 +0000] [4594] [INFO] Worker exiting (pid: 4594)
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'TEst'), ('comment', 'еуЫЕ'), ('addcomment', '')])
+[2021-01-07 07:28:07 +0000] [4598] [INFO] Worker exiting (pid: 4598)
+ImmutableMultiDict([('name', 'respectniggers'), ('forex_rating_reviews_email', ''), ('brokers', '15'), ('broker_id', ''), ('opinions', '0'), ('opinion_id', ''), ('comment', 'фыв')])
+[2021-01-07 07:28:07 +0000] [4596] [INFO] Worker exiting (pid: 4596)
+[2021-01-07 07:28:07 +0000] [4590] [INFO] Handling signal: term
+[2021-01-07 07:28:07 +0000] [4592] [INFO] Handling signal: term
+[2021-01-07 07:28:07 +0000] [4591] [INFO] Handling signal: term
+[2021-01-07 07:28:07 +0000] [4591] [INFO] Shutting down: Master
+[2021-01-07 07:28:08 +0000] [4590] [INFO] Shutting down: Master
+[2021-01-07 07:28:08 +0000] [4592] [INFO] Shutting down: Master
+[2021-01-07 07:28:12 +0000] [21154] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:28:12 +0000] [21154] [INFO] Listening at: http://0.0.0.0:4000 (21154)
+[2021-01-07 07:28:12 +0000] [21154] [INFO] Using worker: sync
+[2021-01-07 07:28:12 +0000] [21156] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:28:12 +0000] [21156] [INFO] Listening at: http://0.0.0.0:4002 (21156)
+[2021-01-07 07:28:12 +0000] [21156] [INFO] Using worker: sync
+[2021-01-07 07:28:12 +0000] [21159] [INFO] Booting worker with pid: 21159
+[2021-01-07 07:28:12 +0000] [21155] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:28:12 +0000] [21155] [INFO] Listening at: http://0.0.0.0:4001 (21155)
+[2021-01-07 07:28:12 +0000] [21155] [INFO] Using worker: sync
+[2021-01-07 07:28:12 +0000] [21161] [INFO] Booting worker with pid: 21161
+[2021-01-07 07:28:12 +0000] [21162] [INFO] Booting worker with pid: 21162
+[2021-01-07 07:31:26 +0000] [21154] [INFO] Handling signal: term
+[2021-01-07 07:31:26 +0000] [21155] [INFO] Handling signal: term
+[2021-01-07 07:31:26 +0000] [21156] [INFO] Handling signal: term
+[2021-01-07 07:31:26 +0000] [21162] [INFO] Worker exiting (pid: 21162)
+[2021-01-07 07:31:26 +0000] [21159] [INFO] Worker exiting (pid: 21159)
+[2021-01-07 07:31:26 +0000] [21161] [INFO] Worker exiting (pid: 21161)
+[2021-01-07 07:31:27 +0000] [21155] [INFO] Shutting down: Master
+[2021-01-07 07:31:27 +0000] [21156] [INFO] Shutting down: Master
+[2021-01-07 07:31:27 +0000] [21154] [INFO] Shutting down: Master
+[2021-01-07 07:31:36 +0000] [21231] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:31:36 +0000] [21231] [INFO] Listening at: http://0.0.0.0:4000 (21231)
+[2021-01-07 07:31:36 +0000] [21231] [INFO] Using worker: sync
+[2021-01-07 07:31:36 +0000] [21235] [INFO] Booting worker with pid: 21235
+[2021-01-07 07:31:36 +0000] [21232] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:31:36 +0000] [21232] [INFO] Listening at: http://0.0.0.0:4001 (21232)
+[2021-01-07 07:31:36 +0000] [21232] [INFO] Using worker: sync
+[2021-01-07 07:31:36 +0000] [21237] [INFO] Booting worker with pid: 21237
+[2021-01-07 07:31:37 +0000] [21233] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:31:37 +0000] [21233] [INFO] Listening at: http://0.0.0.0:4002 (21233)
+[2021-01-07 07:31:37 +0000] [21233] [INFO] Using worker: sync
+[2021-01-07 07:31:37 +0000] [21239] [INFO] Booting worker with pid: 21239
+[2021-01-07 07:34:01 +0000] [21231] [INFO] Handling signal: term
+[2021-01-07 07:34:01 +0000] [21232] [INFO] Handling signal: term
+[2021-01-07 07:34:01 +0000] [21237] [INFO] Worker exiting (pid: 21237)
+[2021-01-07 07:34:01 +0000] [21239] [INFO] Worker exiting (pid: 21239)
+[2021-01-07 07:34:01 +0000] [21233] [INFO] Handling signal: term
+[2021-01-07 07:34:01 +0000] [21235] [INFO] Worker exiting (pid: 21235)
+[2021-01-07 07:34:01 +0000] [21233] [INFO] Shutting down: Master
+[2021-01-07 07:34:01 +0000] [21231] [INFO] Shutting down: Master
+[2021-01-07 07:34:01 +0000] [21232] [INFO] Shutting down: Master
+[2021-01-07 07:34:02 +0000] [21299] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:34:02 +0000] [21299] [INFO] Listening at: http://0.0.0.0:4000 (21299)
+[2021-01-07 07:34:02 +0000] [21299] [INFO] Using worker: sync
+[2021-01-07 07:34:02 +0000] [21303] [INFO] Booting worker with pid: 21303
+[2021-01-07 07:34:02 +0000] [21301] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:34:02 +0000] [21301] [INFO] Listening at: http://0.0.0.0:4002 (21301)
+[2021-01-07 07:34:02 +0000] [21301] [INFO] Using worker: sync
+[2021-01-07 07:34:02 +0000] [21305] [INFO] Booting worker with pid: 21305
+[2021-01-07 07:34:02 +0000] [21300] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:34:02 +0000] [21300] [INFO] Listening at: http://0.0.0.0:4001 (21300)
+[2021-01-07 07:34:02 +0000] [21300] [INFO] Using worker: sync
+[2021-01-07 07:34:02 +0000] [21307] [INFO] Booting worker with pid: 21307
+[2021-01-07 07:34:04 +0000] [21301] [INFO] Handling signal: term
+[2021-01-07 07:34:04 +0000] [21299] [INFO] Handling signal: term
+[2021-01-07 07:34:04 +0000] [21305] [INFO] Worker exiting (pid: 21305)
+[2021-01-07 07:34:04 +0000] [21300] [INFO] Handling signal: term
+[2021-01-07 07:34:04 +0000] [21307] [INFO] Worker exiting (pid: 21307)
+[2021-01-07 07:34:04 +0000] [21303] [INFO] Worker exiting (pid: 21303)
+[2021-01-07 07:34:05 +0000] [21301] [INFO] Shutting down: Master
+[2021-01-07 07:34:05 +0000] [21299] [INFO] Shutting down: Master
+[2021-01-07 07:34:05 +0000] [21300] [INFO] Shutting down: Master
+[2021-01-07 07:34:06 +0000] [21337] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:34:06 +0000] [21337] [INFO] Listening at: http://0.0.0.0:4001 (21337)
+[2021-01-07 07:34:06 +0000] [21337] [INFO] Using worker: sync
+[2021-01-07 07:34:06 +0000] [21338] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:34:06 +0000] [21338] [INFO] Listening at: http://0.0.0.0:4002 (21338)
+[2021-01-07 07:34:06 +0000] [21338] [INFO] Using worker: sync
+[2021-01-07 07:34:06 +0000] [21341] [INFO] Booting worker with pid: 21341
+[2021-01-07 07:34:06 +0000] [21342] [INFO] Booting worker with pid: 21342
+[2021-01-07 07:34:06 +0000] [21336] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:34:06 +0000] [21336] [INFO] Listening at: http://0.0.0.0:4000 (21336)
+[2021-01-07 07:34:06 +0000] [21336] [INFO] Using worker: sync
+[2021-01-07 07:34:06 +0000] [21344] [INFO] Booting worker with pid: 21344
+[2021-01-07 07:35:27 +0000] [21337] [INFO] Handling signal: term
+[2021-01-07 07:35:27 +0000] [21341] [INFO] Worker exiting (pid: 21341)
+[2021-01-07 07:35:27 +0000] [21336] [INFO] Handling signal: term
+[2021-01-07 07:35:27 +0000] [21338] [INFO] Handling signal: term
+[2021-01-07 07:35:27 +0000] [21342] [INFO] Worker exiting (pid: 21342)
+[2021-01-07 07:35:27 +0000] [21344] [INFO] Worker exiting (pid: 21344)
+[2021-01-07 07:35:28 +0000] [21336] [INFO] Shutting down: Master
+[2021-01-07 07:35:28 +0000] [21337] [INFO] Shutting down: Master
+[2021-01-07 07:35:28 +0000] [21338] [INFO] Shutting down: Master
+[2021-01-07 07:35:29 +0000] [21386] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:35:29 +0000] [21386] [INFO] Listening at: http://0.0.0.0:4000 (21386)
+[2021-01-07 07:35:29 +0000] [21386] [INFO] Using worker: sync
+[2021-01-07 07:35:29 +0000] [21390] [INFO] Booting worker with pid: 21390
+[2021-01-07 07:35:29 +0000] [21387] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:35:29 +0000] [21387] [INFO] Listening at: http://0.0.0.0:4001 (21387)
+[2021-01-07 07:35:29 +0000] [21387] [INFO] Using worker: sync
+[2021-01-07 07:35:29 +0000] [21392] [INFO] Booting worker with pid: 21392
+[2021-01-07 07:35:29 +0000] [21388] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:35:29 +0000] [21388] [INFO] Listening at: http://0.0.0.0:4002 (21388)
+[2021-01-07 07:35:29 +0000] [21388] [INFO] Using worker: sync
+[2021-01-07 07:35:29 +0000] [21394] [INFO] Booting worker with pid: 21394
+[2021-01-07 07:35:34 +0000] [21386] [INFO] Handling signal: term
+[2021-01-07 07:35:34 +0000] [21390] [INFO] Worker exiting (pid: 21390)
+[2021-01-07 07:35:34 +0000] [21388] [INFO] Handling signal: term
+[2021-01-07 07:35:34 +0000] [21394] [INFO] Worker exiting (pid: 21394)
+[2021-01-07 07:35:34 +0000] [21387] [INFO] Handling signal: term
+[2021-01-07 07:35:34 +0000] [21392] [INFO] Worker exiting (pid: 21392)
+[2021-01-07 07:35:35 +0000] [21386] [INFO] Shutting down: Master
+[2021-01-07 07:35:35 +0000] [21388] [INFO] Shutting down: Master
+[2021-01-07 07:35:35 +0000] [21387] [INFO] Shutting down: Master
+[2021-01-07 07:35:36 +0000] [21423] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:35:36 +0000] [21423] [INFO] Listening at: http://0.0.0.0:4000 (21423)
+[2021-01-07 07:35:36 +0000] [21423] [INFO] Using worker: sync
+[2021-01-07 07:35:36 +0000] [21427] [INFO] Booting worker with pid: 21427
+[2021-01-07 07:35:36 +0000] [21424] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:35:36 +0000] [21424] [INFO] Listening at: http://0.0.0.0:4001 (21424)
+[2021-01-07 07:35:36 +0000] [21424] [INFO] Using worker: sync
+[2021-01-07 07:35:36 +0000] [21429] [INFO] Booting worker with pid: 21429
+[2021-01-07 07:35:36 +0000] [21425] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:35:36 +0000] [21425] [INFO] Listening at: http://0.0.0.0:4002 (21425)
+[2021-01-07 07:35:36 +0000] [21425] [INFO] Using worker: sync
+[2021-01-07 07:35:36 +0000] [21431] [INFO] Booting worker with pid: 21431
+[2021-01-07 07:37:10 +0000] [21423] [INFO] Handling signal: term
+[2021-01-07 07:37:10 +0000] [21425] [INFO] Handling signal: term
+[2021-01-07 07:37:10 +0000] [21424] [INFO] Handling signal: term
+[2021-01-07 07:37:10 +0000] [21429] [INFO] Worker exiting (pid: 21429)
+[2021-01-07 07:37:10 +0000] [21431] [INFO] Worker exiting (pid: 21431)
+[2021-01-07 07:37:10 +0000] [21427] [INFO] Worker exiting (pid: 21427)
+[2021-01-07 07:37:11 +0000] [21423] [INFO] Shutting down: Master
+[2021-01-07 07:37:11 +0000] [21425] [INFO] Shutting down: Master
+[2021-01-07 07:37:11 +0000] [21424] [INFO] Shutting down: Master
+[2021-01-07 07:37:12 +0000] [21486] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:37:12 +0000] [21486] [INFO] Listening at: http://0.0.0.0:4002 (21486)
+[2021-01-07 07:37:12 +0000] [21486] [INFO] Using worker: sync
+[2021-01-07 07:37:12 +0000] [21489] [INFO] Booting worker with pid: 21489
+[2021-01-07 07:37:12 +0000] [21484] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:37:12 +0000] [21484] [INFO] Listening at: http://0.0.0.0:4000 (21484)
+[2021-01-07 07:37:12 +0000] [21484] [INFO] Using worker: sync
+[2021-01-07 07:37:13 +0000] [21490] [INFO] Booting worker with pid: 21490
+[2021-01-07 07:37:13 +0000] [21485] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:37:13 +0000] [21485] [INFO] Listening at: http://0.0.0.0:4001 (21485)
+[2021-01-07 07:37:13 +0000] [21485] [INFO] Using worker: sync
+[2021-01-07 07:37:13 +0000] [21492] [INFO] Booting worker with pid: 21492
+[2021-01-07 07:39:30 +0000] [21484] [INFO] Handling signal: term
+[2021-01-07 07:39:30 +0000] [21485] [INFO] Handling signal: term
+[2021-01-07 07:39:30 +0000] [21490] [INFO] Worker exiting (pid: 21490)
+[2021-01-07 07:39:30 +0000] [21489] [INFO] Worker exiting (pid: 21489)
+[2021-01-07 07:39:30 +0000] [21492] [INFO] Worker exiting (pid: 21492)
+[2021-01-07 07:39:30 +0000] [21486] [INFO] Handling signal: term
+[2021-01-07 07:39:30 +0000] [21484] [INFO] Shutting down: Master
+[2021-01-07 07:39:30 +0000] [21486] [INFO] Shutting down: Master
+[2021-01-07 07:39:30 +0000] [21485] [INFO] Shutting down: Master
+[2021-01-07 07:39:31 +0000] [21553] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:39:31 +0000] [21553] [INFO] Listening at: http://0.0.0.0:4000 (21553)
+[2021-01-07 07:39:31 +0000] [21553] [INFO] Using worker: sync
+[2021-01-07 07:39:31 +0000] [21557] [INFO] Booting worker with pid: 21557
+[2021-01-07 07:39:31 +0000] [21555] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:39:31 +0000] [21555] [INFO] Listening at: http://0.0.0.0:4002 (21555)
+[2021-01-07 07:39:31 +0000] [21555] [INFO] Using worker: sync
+[2021-01-07 07:39:31 +0000] [21554] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:39:31 +0000] [21554] [INFO] Listening at: http://0.0.0.0:4001 (21554)
+[2021-01-07 07:39:31 +0000] [21554] [INFO] Using worker: sync
+[2021-01-07 07:39:31 +0000] [21560] [INFO] Booting worker with pid: 21560
+[2021-01-07 07:39:31 +0000] [21561] [INFO] Booting worker with pid: 21561
+[2021-01-07 07:40:39 +0000] [21554] [INFO] Handling signal: term
+[2021-01-07 07:40:39 +0000] [21553] [INFO] Handling signal: term
+[2021-01-07 07:40:39 +0000] [21561] [INFO] Worker exiting (pid: 21561)
+[2021-01-07 07:40:39 +0000] [21557] [INFO] Worker exiting (pid: 21557)
+[2021-01-07 07:40:39 +0000] [21560] [INFO] Worker exiting (pid: 21560)
+[2021-01-07 07:40:39 +0000] [21555] [INFO] Handling signal: term
+[2021-01-07 07:40:40 +0000] [21555] [INFO] Shutting down: Master
+[2021-01-07 07:40:40 +0000] [21553] [INFO] Shutting down: Master
+[2021-01-07 07:40:40 +0000] [21554] [INFO] Shutting down: Master
+[2021-01-07 07:40:41 +0000] [21600] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:40:41 +0000] [21600] [INFO] Listening at: http://0.0.0.0:4000 (21600)
+[2021-01-07 07:40:41 +0000] [21600] [INFO] Using worker: sync
+[2021-01-07 07:40:41 +0000] [21604] [INFO] Booting worker with pid: 21604
+[2021-01-07 07:40:41 +0000] [21601] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:40:41 +0000] [21601] [INFO] Listening at: http://0.0.0.0:4001 (21601)
+[2021-01-07 07:40:41 +0000] [21601] [INFO] Using worker: sync
+[2021-01-07 07:40:41 +0000] [21602] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:40:41 +0000] [21602] [INFO] Listening at: http://0.0.0.0:4002 (21602)
+[2021-01-07 07:40:41 +0000] [21602] [INFO] Using worker: sync
+[2021-01-07 07:40:41 +0000] [21607] [INFO] Booting worker with pid: 21607
+[2021-01-07 07:40:41 +0000] [21608] [INFO] Booting worker with pid: 21608
+[2021-01-07 07:41:24 +0000] [21602] [INFO] Handling signal: term
+[2021-01-07 07:41:24 +0000] [21600] [INFO] Handling signal: term
+[2021-01-07 07:41:24 +0000] [21608] [INFO] Worker exiting (pid: 21608)
+[2021-01-07 07:41:24 +0000] [21604] [INFO] Worker exiting (pid: 21604)
+[2021-01-07 07:41:24 +0000] [21601] [INFO] Handling signal: term
+[2021-01-07 07:41:24 +0000] [21607] [INFO] Worker exiting (pid: 21607)
+[2021-01-07 07:41:24 +0000] [21600] [INFO] Shutting down: Master
+[2021-01-07 07:41:25 +0000] [21601] [INFO] Shutting down: Master
+[2021-01-07 07:41:25 +0000] [21602] [INFO] Shutting down: Master
+[2021-01-07 07:41:25 +0000] [21640] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:25 +0000] [21640] [INFO] Listening at: http://0.0.0.0:4000 (21640)
+[2021-01-07 07:41:25 +0000] [21640] [INFO] Using worker: sync
+[2021-01-07 07:41:25 +0000] [21641] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:25 +0000] [21641] [INFO] Listening at: http://0.0.0.0:4001 (21641)
+[2021-01-07 07:41:25 +0000] [21641] [INFO] Using worker: sync
+[2021-01-07 07:41:25 +0000] [21648] [INFO] Booting worker with pid: 21648
+[2021-01-07 07:41:25 +0000] [21649] [INFO] Booting worker with pid: 21649
+[2021-01-07 07:41:25 +0000] [21642] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:25 +0000] [21642] [INFO] Listening at: http://0.0.0.0:4002 (21642)
+[2021-01-07 07:41:25 +0000] [21642] [INFO] Using worker: sync
+[2021-01-07 07:41:26 +0000] [21651] [INFO] Booting worker with pid: 21651
+[2021-01-07 07:41:26 +0000] [21641] [INFO] Handling signal: term
+[2021-01-07 07:41:26 +0000] [21640] [INFO] Handling signal: term
+[2021-01-07 07:41:26 +0000] [21649] [INFO] Worker exiting (pid: 21649)
+[2021-01-07 07:41:26 +0000] [21642] [INFO] Handling signal: term
+[2021-01-07 07:41:26 +0000] [21648] [INFO] Worker exiting (pid: 21648)
+[2021-01-07 07:41:26 +0000] [21651] [INFO] Worker exiting (pid: 21651)
+[2021-01-07 07:41:27 +0000] [21641] [INFO] Shutting down: Master
+[2021-01-07 07:41:27 +0000] [21640] [INFO] Shutting down: Master
+[2021-01-07 07:41:27 +0000] [21642] [INFO] Shutting down: Master
+[2021-01-07 07:41:27 +0000] [21678] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:27 +0000] [21678] [INFO] Listening at: http://0.0.0.0:4001 (21678)
+[2021-01-07 07:41:27 +0000] [21678] [INFO] Using worker: sync
+[2021-01-07 07:41:27 +0000] [21681] [INFO] Booting worker with pid: 21681
+[2021-01-07 07:41:27 +0000] [21677] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:27 +0000] [21677] [INFO] Listening at: http://0.0.0.0:4000 (21677)
+[2021-01-07 07:41:27 +0000] [21677] [INFO] Using worker: sync
+[2021-01-07 07:41:27 +0000] [21679] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:27 +0000] [21683] [INFO] Booting worker with pid: 21683
+[2021-01-07 07:41:27 +0000] [21679] [INFO] Listening at: http://0.0.0.0:4002 (21679)
+[2021-01-07 07:41:27 +0000] [21679] [INFO] Using worker: sync
+[2021-01-07 07:41:27 +0000] [21685] [INFO] Booting worker with pid: 21685
+[2021-01-07 07:41:35 +0000] [21677] [INFO] Handling signal: term
+[2021-01-07 07:41:35 +0000] [21678] [INFO] Handling signal: term
+[2021-01-07 07:41:35 +0000] [21683] [INFO] Worker exiting (pid: 21683)
+[2021-01-07 07:41:35 +0000] [21679] [INFO] Handling signal: term
+[2021-01-07 07:41:35 +0000] [21681] [INFO] Worker exiting (pid: 21681)
+[2021-01-07 07:41:35 +0000] [21685] [INFO] Worker exiting (pid: 21685)
+[2021-01-07 07:41:35 +0000] [21677] [INFO] Shutting down: Master
+[2021-01-07 07:41:35 +0000] [21679] [INFO] Shutting down: Master
+[2021-01-07 07:41:36 +0000] [21678] [INFO] Shutting down: Master
+[2021-01-07 07:41:37 +0000] [21717] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:37 +0000] [21717] [INFO] Listening at: http://0.0.0.0:4002 (21717)
+[2021-01-07 07:41:37 +0000] [21717] [INFO] Using worker: sync
+[2021-01-07 07:41:37 +0000] [21719] [INFO] Booting worker with pid: 21719
+[2021-01-07 07:41:37 +0000] [21715] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:37 +0000] [21715] [INFO] Listening at: http://0.0.0.0:4000 (21715)
+[2021-01-07 07:41:37 +0000] [21715] [INFO] Using worker: sync
+[2021-01-07 07:41:37 +0000] [21716] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:41:37 +0000] [21716] [INFO] Listening at: http://0.0.0.0:4001 (21716)
+[2021-01-07 07:41:37 +0000] [21716] [INFO] Using worker: sync
+[2021-01-07 07:41:37 +0000] [21722] [INFO] Booting worker with pid: 21722
+[2021-01-07 07:41:37 +0000] [21723] [INFO] Booting worker with pid: 21723
+[2021-01-07 07:43:41 +0000] [21715] [INFO] Handling signal: term
+[2021-01-07 07:43:41 +0000] [21722] [INFO] Worker exiting (pid: 21722)
+[2021-01-07 07:43:41 +0000] [21717] [INFO] Handling signal: term
+[2021-01-07 07:43:41 +0000] [21719] [INFO] Worker exiting (pid: 21719)
+[2021-01-07 07:43:41 +0000] [21716] [INFO] Handling signal: term
+[2021-01-07 07:43:41 +0000] [21723] [INFO] Worker exiting (pid: 21723)
+[2021-01-07 07:43:41 +0000] [21715] [INFO] Shutting down: Master
+[2021-01-07 07:43:41 +0000] [21717] [INFO] Shutting down: Master
+[2021-01-07 07:43:41 +0000] [21716] [INFO] Shutting down: Master
+[2021-01-07 07:43:42 +0000] [21781] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:43:42 +0000] [21781] [INFO] Listening at: http://0.0.0.0:4000 (21781)
+[2021-01-07 07:43:42 +0000] [21781] [INFO] Using worker: sync
+[2021-01-07 07:43:42 +0000] [21785] [INFO] Booting worker with pid: 21785
+[2021-01-07 07:43:42 +0000] [21782] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:43:42 +0000] [21782] [INFO] Listening at: http://0.0.0.0:4001 (21782)
+[2021-01-07 07:43:42 +0000] [21782] [INFO] Using worker: sync
+[2021-01-07 07:43:42 +0000] [21783] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:43:42 +0000] [21783] [INFO] Listening at: http://0.0.0.0:4002 (21783)
+[2021-01-07 07:43:42 +0000] [21783] [INFO] Using worker: sync
+[2021-01-07 07:43:42 +0000] [21788] [INFO] Booting worker with pid: 21788
+[2021-01-07 07:43:42 +0000] [21789] [INFO] Booting worker with pid: 21789
+[2021-01-07 07:46:15 +0000] [21781] [INFO] Handling signal: term
+[2021-01-07 07:46:15 +0000] [21785] [INFO] Worker exiting (pid: 21785)
+[2021-01-07 07:46:15 +0000] [21788] [INFO] Worker exiting (pid: 21788)
+[2021-01-07 07:46:15 +0000] [21783] [INFO] Handling signal: term
+[2021-01-07 07:46:15 +0000] [21782] [INFO] Handling signal: term
+[2021-01-07 07:46:15 +0000] [21789] [INFO] Worker exiting (pid: 21789)
+[2021-01-07 07:46:15 +0000] [21782] [INFO] Shutting down: Master
+[2021-01-07 07:46:15 +0000] [21781] [INFO] Shutting down: Master
+[2021-01-07 07:46:15 +0000] [21783] [INFO] Shutting down: Master
+[2021-01-07 07:46:16 +0000] [21848] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:46:16 +0000] [21848] [INFO] Listening at: http://0.0.0.0:4002 (21848)
+[2021-01-07 07:46:16 +0000] [21848] [INFO] Using worker: sync
+[2021-01-07 07:46:16 +0000] [21850] [INFO] Booting worker with pid: 21850
+[2021-01-07 07:46:16 +0000] [21847] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:46:16 +0000] [21847] [INFO] Listening at: http://0.0.0.0:4001 (21847)
+[2021-01-07 07:46:16 +0000] [21847] [INFO] Using worker: sync
+[2021-01-07 07:46:16 +0000] [21852] [INFO] Booting worker with pid: 21852
+[2021-01-07 07:46:16 +0000] [21846] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:46:16 +0000] [21846] [INFO] Listening at: http://0.0.0.0:4000 (21846)
+[2021-01-07 07:46:16 +0000] [21846] [INFO] Using worker: sync
+[2021-01-07 07:46:16 +0000] [21854] [INFO] Booting worker with pid: 21854
+[2021-01-07 07:47:46 +0000] [21847] [INFO] Handling signal: term
+[2021-01-07 07:47:46 +0000] [21846] [INFO] Handling signal: term
+[2021-01-07 07:47:46 +0000] [21850] [INFO] Worker exiting (pid: 21850)
+[2021-01-07 07:47:46 +0000] [21848] [INFO] Handling signal: term
+[2021-01-07 07:47:46 +0000] [21852] [INFO] Worker exiting (pid: 21852)
+[2021-01-07 07:47:46 +0000] [21854] [INFO] Worker exiting (pid: 21854)
+[2021-01-07 07:47:47 +0000] [21848] [INFO] Shutting down: Master
+[2021-01-07 07:47:47 +0000] [21846] [INFO] Shutting down: Master
+[2021-01-07 07:47:47 +0000] [21847] [INFO] Shutting down: Master
+[2021-01-07 07:47:49 +0000] [21897] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:47:49 +0000] [21896] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:47:49 +0000] [21896] [INFO] Listening at: http://0.0.0.0:4000 (21896)
+[2021-01-07 07:47:49 +0000] [21896] [INFO] Using worker: sync
+[2021-01-07 07:47:49 +0000] [21897] [INFO] Listening at: http://0.0.0.0:4001 (21897)
+[2021-01-07 07:47:49 +0000] [21897] [INFO] Using worker: sync
+[2021-01-07 07:47:49 +0000] [21902] [INFO] Booting worker with pid: 21902
+[2021-01-07 07:47:49 +0000] [21901] [INFO] Booting worker with pid: 21901
+[2021-01-07 07:47:49 +0000] [21898] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:47:49 +0000] [21898] [INFO] Listening at: http://0.0.0.0:4002 (21898)
+[2021-01-07 07:47:49 +0000] [21898] [INFO] Using worker: sync
+[2021-01-07 07:47:49 +0000] [21904] [INFO] Booting worker with pid: 21904
+[2021-01-07 07:48:20 +0000] [21896] [INFO] Handling signal: term
+[2021-01-07 07:48:20 +0000] [21898] [INFO] Handling signal: term
+[2021-01-07 07:48:20 +0000] [21901] [INFO] Worker exiting (pid: 21901)
+[2021-01-07 07:48:20 +0000] [21904] [INFO] Worker exiting (pid: 21904)
+[2021-01-07 07:48:20 +0000] [21897] [INFO] Handling signal: term
+[2021-01-07 07:48:20 +0000] [21902] [INFO] Worker exiting (pid: 21902)
+[2021-01-07 07:48:21 +0000] [21898] [INFO] Shutting down: Master
+[2021-01-07 07:48:21 +0000] [21896] [INFO] Shutting down: Master
+[2021-01-07 07:48:21 +0000] [21897] [INFO] Shutting down: Master
+[2021-01-07 07:48:22 +0000] [21942] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:48:22 +0000] [21942] [INFO] Listening at: http://0.0.0.0:4001 (21942)
+[2021-01-07 07:48:22 +0000] [21942] [INFO] Using worker: sync
+[2021-01-07 07:48:22 +0000] [21945] [INFO] Booting worker with pid: 21945
+[2021-01-07 07:48:22 +0000] [21941] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:48:22 +0000] [21941] [INFO] Listening at: http://0.0.0.0:4000 (21941)
+[2021-01-07 07:48:22 +0000] [21941] [INFO] Using worker: sync
+[2021-01-07 07:48:22 +0000] [21947] [INFO] Booting worker with pid: 21947
+[2021-01-07 07:48:22 +0000] [21943] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:48:22 +0000] [21943] [INFO] Listening at: http://0.0.0.0:4002 (21943)
+[2021-01-07 07:48:22 +0000] [21943] [INFO] Using worker: sync
+[2021-01-07 07:48:22 +0000] [21949] [INFO] Booting worker with pid: 21949
+[2021-01-07 07:50:30 +0000] [21941] [INFO] Handling signal: term
+[2021-01-07 07:50:30 +0000] [21942] [INFO] Handling signal: term
+[2021-01-07 07:50:30 +0000] [21947] [INFO] Worker exiting (pid: 21947)
+[2021-01-07 07:50:30 +0000] [21945] [INFO] Worker exiting (pid: 21945)
+[2021-01-07 07:50:30 +0000] [21943] [INFO] Handling signal: term
+[2021-01-07 07:50:30 +0000] [21949] [INFO] Worker exiting (pid: 21949)
+[2021-01-07 07:50:31 +0000] [21942] [INFO] Shutting down: Master
+[2021-01-07 07:50:31 +0000] [21941] [INFO] Shutting down: Master
+[2021-01-07 07:50:31 +0000] [21943] [INFO] Shutting down: Master
+[2021-01-07 07:50:31 +0000] [22013] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:50:31 +0000] [22013] [INFO] Listening at: http://0.0.0.0:4002 (22013)
+[2021-01-07 07:50:31 +0000] [22013] [INFO] Using worker: sync
+[2021-01-07 07:50:31 +0000] [22015] [INFO] Booting worker with pid: 22015
+[2021-01-07 07:50:31 +0000] [22012] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:50:31 +0000] [22012] [INFO] Listening at: http://0.0.0.0:4001 (22012)
+[2021-01-07 07:50:31 +0000] [22012] [INFO] Using worker: sync
+[2021-01-07 07:50:31 +0000] [22017] [INFO] Booting worker with pid: 22017
+[2021-01-07 07:50:32 +0000] [22011] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 07:50:32 +0000] [22011] [INFO] Listening at: http://0.0.0.0:4000 (22011)
+[2021-01-07 07:50:32 +0000] [22011] [INFO] Using worker: sync
+[2021-01-07 07:50:32 +0000] [22019] [INFO] Booting worker with pid: 22019
+[2021-01-07 15:00:32 +0000] [22017] [INFO] Worker exiting (pid: 22017)
+[2021-01-07 15:00:32 +0000] [22012] [INFO] Handling signal: term
+[2021-01-07 15:00:32 +0000] [22015] [INFO] Worker exiting (pid: 22015)
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'asd'), ('comment', 'dsa'), ('addcomment', '')])
+[2021-01-07 15:00:32 +0000] [22011] [INFO] Handling signal: term
+[2021-01-07 15:00:32 +0000] [22019] [INFO] Worker exiting (pid: 22019)
+[2021-01-07 15:00:32 +0000] [22013] [INFO] Handling signal: term
+[2021-01-07 15:00:33 +0000] [22012] [INFO] Shutting down: Master
+[2021-01-07 15:00:33 +0000] [22013] [INFO] Shutting down: Master
+[2021-01-07 15:00:33 +0000] [22011] [INFO] Shutting down: Master
+[2021-01-07 15:00:34 +0000] [26240] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:00:34 +0000] [26240] [INFO] Listening at: http://0.0.0.0:4000 (26240)
+[2021-01-07 15:00:34 +0000] [26240] [INFO] Using worker: sync
+[2021-01-07 15:00:34 +0000] [26257] [INFO] Booting worker with pid: 26257
+[2021-01-07 15:00:34 +0000] [26242] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:00:34 +0000] [26242] [INFO] Listening at: http://0.0.0.0:4002 (26242)
+[2021-01-07 15:00:34 +0000] [26242] [INFO] Using worker: sync
+[2021-01-07 15:00:34 +0000] [26259] [INFO] Booting worker with pid: 26259
+[2021-01-07 15:00:34 +0000] [26241] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:00:34 +0000] [26241] [INFO] Listening at: http://0.0.0.0:4001 (26241)
+[2021-01-07 15:00:34 +0000] [26241] [INFO] Using worker: sync
+[2021-01-07 15:00:34 +0000] [26261] [INFO] Booting worker with pid: 26261
+[2021-01-07 15:03:46 +0000] [26259] [INFO] Worker exiting (pid: 26259)
+[2021-01-07 15:03:46 +0000] [26261] [INFO] Worker exiting (pid: 26261)
+[2021-01-07 15:03:46 +0000] [26257] [INFO] Worker exiting (pid: 26257)
+[2021-01-07 15:03:46 +0000] [26242] [INFO] Handling signal: term
+[2021-01-07 15:03:46 +0000] [26241] [INFO] Handling signal: term
+[2021-01-07 15:03:46 +0000] [26240] [INFO] Handling signal: term
+[2021-01-07 15:03:47 +0000] [26242] [INFO] Shutting down: Master
+[2021-01-07 15:03:47 +0000] [26240] [INFO] Shutting down: Master
+[2021-01-07 15:03:47 +0000] [26241] [INFO] Shutting down: Master
+[2021-01-07 15:03:47 +0000] [26311] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:03:47 +0000] [26311] [INFO] Listening at: http://0.0.0.0:4002 (26311)
+[2021-01-07 15:03:47 +0000] [26311] [INFO] Using worker: sync
+[2021-01-07 15:03:47 +0000] [26313] [INFO] Booting worker with pid: 26313
+[2021-01-07 15:03:47 +0000] [26309] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:03:47 +0000] [26309] [INFO] Listening at: http://0.0.0.0:4000 (26309)
+[2021-01-07 15:03:47 +0000] [26309] [INFO] Using worker: sync
+[2021-01-07 15:03:47 +0000] [26315] [INFO] Booting worker with pid: 26315
+[2021-01-07 15:03:47 +0000] [26310] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:03:47 +0000] [26310] [INFO] Listening at: http://0.0.0.0:4001 (26310)
+[2021-01-07 15:03:47 +0000] [26310] [INFO] Using worker: sync
+[2021-01-07 15:03:47 +0000] [26317] [INFO] Booting worker with pid: 26317
+[2021-01-07 15:03:49 +0000] [26309] [INFO] Handling signal: term
+[2021-01-07 15:03:49 +0000] [26315] [INFO] Worker exiting (pid: 26315)
+[2021-01-07 15:03:49 +0000] [26310] [INFO] Handling signal: term
+[2021-01-07 15:03:49 +0000] [26317] [INFO] Worker exiting (pid: 26317)
+[2021-01-07 15:03:49 +0000] [26311] [INFO] Handling signal: term
+[2021-01-07 15:03:49 +0000] [26313] [INFO] Worker exiting (pid: 26313)
+[2021-01-07 15:03:49 +0000] [26309] [INFO] Shutting down: Master
+[2021-01-07 15:03:49 +0000] [26310] [INFO] Shutting down: Master
+[2021-01-07 15:03:49 +0000] [26311] [INFO] Shutting down: Master
+[2021-01-07 15:03:51 +0000] [26348] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:03:51 +0000] [26348] [INFO] Listening at: http://0.0.0.0:4002 (26348)
+[2021-01-07 15:03:51 +0000] [26348] [INFO] Using worker: sync
+[2021-01-07 15:03:51 +0000] [26350] [INFO] Booting worker with pid: 26350
+[2021-01-07 15:03:51 +0000] [26347] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:03:51 +0000] [26347] [INFO] Listening at: http://0.0.0.0:4001 (26347)
+[2021-01-07 15:03:51 +0000] [26347] [INFO] Using worker: sync
+[2021-01-07 15:03:51 +0000] [26352] [INFO] Booting worker with pid: 26352
+[2021-01-07 15:03:51 +0000] [26346] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:03:51 +0000] [26346] [INFO] Listening at: http://0.0.0.0:4000 (26346)
+[2021-01-07 15:03:51 +0000] [26346] [INFO] Using worker: sync
+[2021-01-07 15:03:51 +0000] [26354] [INFO] Booting worker with pid: 26354
+[2021-01-07 15:07:48 +0000] [26346] [INFO] Handling signal: term
+[2021-01-07 15:07:48 +0000] [26348] [INFO] Handling signal: term
+[2021-01-07 15:07:48 +0000] [26354] [INFO] Worker exiting (pid: 26354)
+[2021-01-07 15:07:48 +0000] [26352] [INFO] Worker exiting (pid: 26352)
+[2021-01-07 15:07:48 +0000] [26350] [INFO] Worker exiting (pid: 26350)
+[2021-01-07 15:07:48 +0000] [26347] [INFO] Handling signal: term
+[2021-01-07 15:07:48 +0000] [26348] [INFO] Shutting down: Master
+[2021-01-07 15:07:48 +0000] [26346] [INFO] Shutting down: Master
+[2021-01-07 15:07:48 +0000] [26347] [INFO] Shutting down: Master
+[2021-01-07 15:07:49 +0000] [26426] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:07:49 +0000] [26426] [INFO] Listening at: http://0.0.0.0:4002 (26426)
+[2021-01-07 15:07:49 +0000] [26426] [INFO] Using worker: sync
+[2021-01-07 15:07:49 +0000] [26428] [INFO] Booting worker with pid: 26428
+[2021-01-07 15:07:49 +0000] [26425] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:07:49 +0000] [26425] [INFO] Listening at: http://0.0.0.0:4001 (26425)
+[2021-01-07 15:07:49 +0000] [26425] [INFO] Using worker: sync
+[2021-01-07 15:07:49 +0000] [26430] [INFO] Booting worker with pid: 26430
+[2021-01-07 15:07:49 +0000] [26424] [INFO] Starting gunicorn 20.0.4
+[2021-01-07 15:07:49 +0000] [26424] [INFO] Listening at: http://0.0.0.0:4000 (26424)
+[2021-01-07 15:07:49 +0000] [26424] [INFO] Using worker: sync
+[2021-01-07 15:07:49 +0000] [26432] [INFO] Booting worker with pid: 26432
+[2021-01-08 16:51:45 +0000] [26430] [INFO] Worker exiting (pid: 26430)
+[2021-01-08 16:51:45 +0000] [26428] [INFO] Worker exiting (pid: 26428)
+[2021-01-08 16:51:45 +0000] [26432] [INFO] Worker exiting (pid: 26432)
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'dominos'), ('comment', 'WolframInvest - находка для профессионального трейдера. Почти все мировые рынки, собственная торговая платформа, ее разработка и поддержка на стороне компании.  Деятельность регулируется Банками Кастодианами'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Милевский'), ('comment', 'Проблем с выводом средств не было ни разу. Пополняю счет и вывожу деньги через банковскую карту, все отлично работает. Техническая поддержка на высоком уровне. Менеджер помогает в решении возникающих вопросов. Комиссии разумные. WolframInvest - отличная компания.'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Сава'), ('comment', 'Что хочу сказать про Wolfram. Неплохой брокер, серьезным трейдерам стоит его рассмотреть. Dep 1000 евро, но и ориентир на профессионалов. Европейское регулирование и страховка говорят сами за себя. Мой опыт с данным брокером не велик, но есть положительные результаты'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Дорофей'), ('comment', 'С Wolfram у меня только положительный опыт сотрудничества. Компания надежна. Внесение денег на счет и снятие занимает не более 1 дня. Сотрудники компании вежливы и компетентны во всех вопросах. Площадка удобна в использовании, я быстро сообразил.'), ('addcomment', '')])
+[2021-01-08 16:51:45 +0000] [26424] [INFO] Handling signal: term
+[2021-01-08 16:51:45 +0000] [26425] [INFO] Handling signal: term
+[2021-01-08 16:51:45 +0000] [26426] [INFO] Handling signal: term
+[2021-01-08 16:51:45 +0000] [26424] [INFO] Shutting down: Master
+[2021-01-08 16:51:45 +0000] [26426] [INFO] Shutting down: Master
+[2021-01-08 16:51:46 +0000] [26425] [INFO] Shutting down: Master
+[2021-01-08 16:51:47 +0000] [51845] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 16:51:47 +0000] [51848] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 16:51:47 +0000] [51848] [INFO] Listening at: http://0.0.0.0:4002 (51848)
+[2021-01-08 16:51:47 +0000] [51845] [INFO] Listening at: http://0.0.0.0:4000 (51845)
+[2021-01-08 16:51:47 +0000] [51848] [INFO] Using worker: sync
+[2021-01-08 16:51:47 +0000] [51845] [INFO] Using worker: sync
+[2021-01-08 16:51:47 +0000] [51854] [INFO] Booting worker with pid: 51854
+[2021-01-08 16:51:47 +0000] [51855] [INFO] Booting worker with pid: 51855
+[2021-01-08 16:51:47 +0000] [51846] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 16:51:47 +0000] [51846] [INFO] Listening at: http://0.0.0.0:4001 (51846)
+[2021-01-08 16:51:47 +0000] [51846] [INFO] Using worker: sync
+[2021-01-08 16:51:47 +0000] [51857] [INFO] Booting worker with pid: 51857
+[2021-01-08 16:53:42 +0000] [51845] [INFO] Handling signal: term
+[2021-01-08 16:53:42 +0000] [51857] [INFO] Worker exiting (pid: 51857)
+[2021-01-08 16:53:42 +0000] [51855] [INFO] Worker exiting (pid: 51855)
+[2021-01-08 16:53:42 +0000] [51846] [INFO] Handling signal: term
+[2021-01-08 16:53:42 +0000] [51854] [INFO] Worker exiting (pid: 51854)
+[2021-01-08 16:53:42 +0000] [51848] [INFO] Handling signal: term
+[2021-01-08 16:53:43 +0000] [51848] [INFO] Shutting down: Master
+[2021-01-08 16:53:43 +0000] [51846] [INFO] Shutting down: Master
+[2021-01-08 16:53:43 +0000] [51845] [INFO] Shutting down: Master
+[2021-01-08 16:53:44 +0000] [51909] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 16:53:44 +0000] [51909] [INFO] Listening at: http://0.0.0.0:4000 (51909)
+[2021-01-08 16:53:44 +0000] [51909] [INFO] Using worker: sync
+[2021-01-08 16:53:44 +0000] [51913] [INFO] Booting worker with pid: 51913
+[2021-01-08 16:53:44 +0000] [51911] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 16:53:44 +0000] [51911] [INFO] Listening at: http://0.0.0.0:4002 (51911)
+[2021-01-08 16:53:44 +0000] [51911] [INFO] Using worker: sync
+[2021-01-08 16:53:44 +0000] [51915] [INFO] Booting worker with pid: 51915
+[2021-01-08 16:53:45 +0000] [51910] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 16:53:45 +0000] [51910] [INFO] Listening at: http://0.0.0.0:4001 (51910)
+[2021-01-08 16:53:45 +0000] [51910] [INFO] Using worker: sync
+[2021-01-08 16:53:45 +0000] [51917] [INFO] Booting worker with pid: 51917
+[2021-01-08 17:02:42 +0000] [51915] [INFO] Worker exiting (pid: 51915)
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Виктор'), ('comment', 'Wolfram  пока что лучший брокер. Онлайн-платформа дает доступ к рынкам от Японии до штатов. Я торгую в основном акциями, но Wolfram дает и фьючи с того же счета. У брокера 4 Лицензии, кажется надежным.'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'дмитрий'), ('comment', 'Вход не маленький, 1000 евро, но WolframInvest постоянно доказывает мне высокое качество обслуживания. Онлайн-платформа настолько удобна, что я быстро понял, как она работает. Быстрая техподдержка 24/7 решает любую мою проблему. Я рекомендую этого брокера.'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Ivan'), ('comment', 'В дополнение к данной статье, инвестиционная компании Wolfram имеет лицензии Великобритании. Есть удобное мобильное приложение, которое позволяет упростить контроль за своими вложениями. Для новых клиентов есть демо-счет с действительными рынками, котировками и торговлей.'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'алекс'), ('comment', 'Я рекомендую WolframInvest, основываясь на собственном опыте. У меня не было задержек при выводе денег и уж тем более не было левых транзакций. На мой взгляд, честный брокер.'), ('addcomment', '')])
+[2021-01-08 17:02:42 +0000] [51917] [INFO] Worker exiting (pid: 51917)
+[2021-01-08 17:02:42 +0000] [51909] [INFO] Handling signal: term
+[2021-01-08 17:02:42 +0000] [51911] [INFO] Handling signal: term
+[2021-01-08 17:02:42 +0000] [51913] [INFO] Worker exiting (pid: 51913)
+[2021-01-08 17:02:42 +0000] [51910] [INFO] Handling signal: term
+[2021-01-08 17:02:42 +0000] [51911] [INFO] Shutting down: Master
+[2021-01-08 17:02:42 +0000] [51910] [INFO] Shutting down: Master
+[2021-01-08 17:02:42 +0000] [51909] [INFO] Shutting down: Master
+[2021-01-08 17:02:44 +0000] [52185] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:02:44 +0000] [52185] [INFO] Listening at: http://0.0.0.0:4002 (52185)
+[2021-01-08 17:02:44 +0000] [52185] [INFO] Using worker: sync
+[2021-01-08 17:02:44 +0000] [52187] [INFO] Booting worker with pid: 52187
+[2021-01-08 17:02:44 +0000] [52183] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:02:44 +0000] [52183] [INFO] Listening at: http://0.0.0.0:4000 (52183)
+[2021-01-08 17:02:44 +0000] [52183] [INFO] Using worker: sync
+[2021-01-08 17:02:44 +0000] [52189] [INFO] Booting worker with pid: 52189
+[2021-01-08 17:02:44 +0000] [52184] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:02:44 +0000] [52184] [INFO] Listening at: http://0.0.0.0:4001 (52184)
+[2021-01-08 17:02:44 +0000] [52184] [INFO] Using worker: sync
+[2021-01-08 17:02:44 +0000] [52191] [INFO] Booting worker with pid: 52191
+[2021-01-08 17:05:50 +0000] [52183] [INFO] Handling signal: term
+[2021-01-08 17:05:50 +0000] [52184] [INFO] Handling signal: term
+[2021-01-08 17:05:50 +0000] [52185] [INFO] Handling signal: term
+[2021-01-08 17:05:50 +0000] [52187] [INFO] Worker exiting (pid: 52187)
+[2021-01-08 17:05:50 +0000] [52191] [INFO] Worker exiting (pid: 52191)
+[2021-01-08 17:05:50 +0000] [52189] [INFO] Worker exiting (pid: 52189)
+ImmutableMultiDict([('name', 'Tim'), ('comment', 'Точно рекомендую и вот почему:\r\n- Америка, Европа, РФ, фьючерсы, бонды и другое — все в одном окне\r\n- поддержка на русском 24/7\r\n- вывод быстрый')])
+ImmutableMultiDict([('name', 'Сергей'), ('comment', 'Если все в порядке с документами и вы серьезно занимаетесь трейдингом, то вам в WolframInvest.')])
+[2021-01-08 17:05:51 +0000] [52185] [INFO] Shutting down: Master
+[2021-01-08 17:05:51 +0000] [52184] [INFO] Shutting down: Master
+[2021-01-08 17:05:51 +0000] [52183] [INFO] Shutting down: Master
+[2021-01-08 17:05:53 +0000] [52295] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:05:53 +0000] [52295] [INFO] Listening at: http://0.0.0.0:4001 (52295)
+[2021-01-08 17:05:53 +0000] [52295] [INFO] Using worker: sync
+[2021-01-08 17:05:53 +0000] [52296] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:05:53 +0000] [52296] [INFO] Listening at: http://0.0.0.0:4002 (52296)
+[2021-01-08 17:05:53 +0000] [52296] [INFO] Using worker: sync
+[2021-01-08 17:05:53 +0000] [52299] [INFO] Booting worker with pid: 52299
+[2021-01-08 17:05:53 +0000] [52300] [INFO] Booting worker with pid: 52300
+[2021-01-08 17:05:53 +0000] [52294] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:05:53 +0000] [52294] [INFO] Listening at: http://0.0.0.0:4000 (52294)
+[2021-01-08 17:05:53 +0000] [52294] [INFO] Using worker: sync
+[2021-01-08 17:05:53 +0000] [52302] [INFO] Booting worker with pid: 52302
+[2021-01-08 17:18:16 +0000] [52295] [INFO] Handling signal: term
+[2021-01-08 17:18:16 +0000] [52294] [INFO] Handling signal: term
+[2021-01-08 17:18:16 +0000] [52300] [INFO] Worker exiting (pid: 52300)
+[2021-01-08 17:18:16 +0000] [52296] [INFO] Handling signal: term
+[2021-01-08 17:18:16 +0000] [52302] [INFO] Worker exiting (pid: 52302)
+[2021-01-08 17:18:16 +0000] [52299] [INFO] Worker exiting (pid: 52299)
+ImmutableMultiDict([('name', 'QTip'), ('comment', 'Хорошая брокерская компания с российскими корнями для торговли на мировых фондовых биржах и деривативами. Широкий спектр инструментов. Зарегистрирована в Великобритании, много партнеров и клиентов по всему миру. Порог входа довольно высокий ($1000), подойдет для серьёзных инвесторов, отличная платформа, комиссии очень привлекательные, надёжный брокер.')])
+ImmutableMultiDict([('name', 'Антон'), ('comment', 'Лично у меня по компании нет никаких вопросов. Долго к ним присматривался, но торговать начала после того как снизили минимальные требования по депозиту на PRO счете, сейчас он стал доступнее, спреды и исполнение там отличное, комиссия 7$ на круг , что в целом очень конкурентоспособно. С выводом проблем нет, на банк выводят без вопросов, как правило в течении трех дней перевод приходит. Поэтому я всем доволен, но каждый должен выбирать для себя сам компанию, под свои требования. Я просто высказываю свое мнение . Всем удачи')])
+ImmutableMultiDict([('name', 'Анна'), ('comment', 'Очень серьезная компания, регуляция Великобритании . Есть русскоязычная поддержка. Менеджеры не навязчывые, что для меня очень важно! Правда, прибыль можно выводить только банковским переводом, но это стандарт для компаний с такими лицензиями. Спред по Евро/Доллару от 0,2 пункта +комиссия $7 за полный круг. Счета ECN без реквот. На мой взгляд, это лучшие условия на сегодняшний день.')])
+[2021-01-08 17:18:16 +0000] [52296] [INFO] Shutting down: Master
+[2021-01-08 17:18:16 +0000] [52294] [INFO] Shutting down: Master
+[2021-01-08 17:18:17 +0000] [52295] [INFO] Shutting down: Master
+[2021-01-08 17:18:18 +0000] [52610] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:18:18 +0000] [52610] [INFO] Listening at: http://0.0.0.0:4001 (52610)
+[2021-01-08 17:18:18 +0000] [52610] [INFO] Using worker: sync
+[2021-01-08 17:18:18 +0000] [52611] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:18:18 +0000] [52611] [INFO] Listening at: http://0.0.0.0:4002 (52611)
+[2021-01-08 17:18:18 +0000] [52611] [INFO] Using worker: sync
+[2021-01-08 17:18:18 +0000] [52609] [INFO] Starting gunicorn 20.0.4
+[2021-01-08 17:18:18 +0000] [52609] [INFO] Listening at: http://0.0.0.0:4000 (52609)
+[2021-01-08 17:18:18 +0000] [52609] [INFO] Using worker: sync
+[2021-01-08 17:18:18 +0000] [52615] [INFO] Booting worker with pid: 52615
+[2021-01-08 17:18:18 +0000] [52616] [INFO] Booting worker with pid: 52616
+[2021-01-08 17:18:18 +0000] [52617] [INFO] Booting worker with pid: 52617
+[2021-01-09 06:37:35 +0000] [52611] [CRITICAL] WORKER TIMEOUT (pid:52616)
+[2021-01-09 06:37:35 +0000] [52616] [INFO] Worker exiting (pid: 52616)
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Алина'), ('comment', 'Очень серьезная компания, регуляция Великобритании . Есть русскоязычная поддержка. Менеджеры не навязчывые, что для меня очень важно! Правда, прибыль можно выводить только банковским переводом, но это стандарт для компаний с такими лицензиями. Спред по Евро/Доллару от 0,2 пункта +комиссия $7 за полный круг. Счета ECN без реквот. На мой взгляд, это лучшие условия на сегодняшний день.'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Rex'), ('comment', 'Сейчас Wolfram рассчитан больше для западной публики, у них просто выгодней торговать с солидным депозитом, а у нас приятно торговать на мелочевке, особенно начинающим инвесторам. У них нормальная регуляция идет, FCA — это уже серьезный западный регулятор, который не выдает просто так лицензии каким-либо кухонным ДЦ, и это дает повод к тому, что можно спокойно торговать и не переживать за неторговые риски, которые зашкаливают у офшорных брокеров. Они уже довольно раскручены, бренд известный и работают на рынке давно. Печалит только маленький выбор индексов, и нет любимых моих ETF контрактов.'), ('addcomment', '')])
+[2021-01-09 06:37:36 +0000] [65747] [INFO] Booting worker with pid: 65747
+[2021-01-09 16:45:47 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:52617)
+[2021-01-09 16:45:47 +0000] [52617] [INFO] Worker exiting (pid: 52617)
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Елена'), ('comment', 'У меня лично положительный опыт работы с данной компанией. Торговые условия здесь реально лучше чем у подавляющего большинства компания на рынке. В принципе каждый если захочет может сам в этом убедиться. Компания регулируется в Англии согласитесь что таких тоже не много на рынке. У меня нет вообще никаких нареканий к данной компании. Мое мнение - они одни из лучших сейчас на рынке. Повторюсь что именно сейчас, может кто то будет читать отзыв через год и ситуация изменится, но пока на мой взгляд ситуация именно такая.'), ('addcomment', '')])
+ImmutableMultiDict([('bank', '149'), ('parent', '0'), ('token', '59265'), ('name', 'Biden'), ('comment', 'Рекомендую , надёжный брокер'), ('addcomment', '')])
+[2021-01-09 16:45:48 +0000] [75592] [INFO] Booting worker with pid: 75592
+[2021-01-10 02:07:07 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:75592)
+[2021-01-10 02:07:07 +0000] [75592] [INFO] Worker exiting (pid: 75592)
+[2021-01-10 02:07:08 +0000] [86211] [INFO] Booting worker with pid: 86211
+[2021-01-10 02:07:39 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:86211)
+[2021-01-10 02:07:39 +0000] [86211] [INFO] Worker exiting (pid: 86211)
+[2021-01-10 02:07:39 +0000] [86221] [INFO] Booting worker with pid: 86221
+[2021-01-10 02:08:10 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:86221)
+[2021-01-10 02:08:10 +0000] [86221] [INFO] Worker exiting (pid: 86221)
+[2021-01-10 02:08:11 +0000] [86233] [INFO] Booting worker with pid: 86233
+[2021-01-10 04:35:55 +0000] [52611] [CRITICAL] WORKER TIMEOUT (pid:65747)
+[2021-01-10 04:35:55 +0000] [65747] [INFO] Worker exiting (pid: 65747)
+[2021-01-10 04:35:56 +0000] [87772] [INFO] Booting worker with pid: 87772
+[2021-01-10 14:09:08 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:86233)
+[2021-01-10 14:09:08 +0000] [86233] [INFO] Worker exiting (pid: 86233)
+[2021-01-10 14:09:08 +0000] [95941] [INFO] Booting worker with pid: 95941
+[2021-01-10 19:10:38 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:95941)
+[2021-01-10 19:10:38 +0000] [95941] [INFO] Worker exiting (pid: 95941)
+[2021-01-10 19:10:39 +0000] [101949] [INFO] Booting worker with pid: 101949
+[2021-01-10 19:11:10 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:101949)
+[2021-01-10 19:11:10 +0000] [101949] [INFO] Worker exiting (pid: 101949)
+[2021-01-10 19:11:10 +0000] [101967] [INFO] Booting worker with pid: 101967
+[2021-01-11 10:06:46 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:101967)
+[2021-01-11 10:06:46 +0000] [101967] [INFO] Worker exiting (pid: 101967)
+[2021-01-11 10:06:47 +0000] [114381] [INFO] Booting worker with pid: 114381
+[2021-01-12 01:29:46 +0000] [52611] [CRITICAL] WORKER TIMEOUT (pid:87772)
+[2021-01-12 01:29:46 +0000] [87772] [INFO] Worker exiting (pid: 87772)
+[2021-01-12 01:29:46 +0000] [131105] [INFO] Booting worker with pid: 131105
+[2021-01-12 05:30:59 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:114381)
+[2021-01-12 05:30:59 +0000] [114381] [INFO] Worker exiting (pid: 114381)
+[2021-01-12 05:30:59 +0000] [135458] [INFO] Booting worker with pid: 135458
+[2021-01-12 05:31:31 +0000] [52609] [CRITICAL] WORKER TIMEOUT (pid:135458)
+[2021-01-12 05:31:31 +0000] [135458] [INFO] Worker exiting (pid: 135458)
+[2021-01-12 05:31:31 +0000] [135477] [INFO] Booting worker with pid: 135477
+[2021-01-12 07:02:05 +0000] [137083] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:02:05 +0000] [137083] [ERROR] Connection in use: ('', 4000)
+[2021-01-12 07:02:05 +0000] [137083] [ERROR] Retrying in 1 second.
+[2021-01-12 07:02:06 +0000] [137083] [ERROR] Connection in use: ('', 4000)
+[2021-01-12 07:02:06 +0000] [137083] [ERROR] Retrying in 1 second.
+[2021-01-12 07:02:07 +0000] [137083] [ERROR] Connection in use: ('', 4000)
+[2021-01-12 07:02:07 +0000] [137083] [ERROR] Retrying in 1 second.
+[2021-01-12 07:02:08 +0000] [137083] [ERROR] Connection in use: ('', 4000)
+[2021-01-12 07:02:08 +0000] [137083] [ERROR] Retrying in 1 second.
+[2021-01-12 07:02:09 +0000] [137083] [ERROR] Connection in use: ('', 4000)
+[2021-01-12 07:02:09 +0000] [137083] [ERROR] Retrying in 1 second.
+[2021-01-12 07:02:10 +0000] [137083] [ERROR] Can't connect to ('', 4000)
+[2021-01-12 07:14:09 +0000] [52609] [INFO] Handling signal: term
+[2021-01-12 07:14:09 +0000] [135477] [INFO] Worker exiting (pid: 135477)
+[2021-01-12 07:14:09 +0000] [52610] [INFO] Handling signal: term
+[2021-01-12 07:14:09 +0000] [131105] [INFO] Worker exiting (pid: 131105)
+[2021-01-12 07:14:09 +0000] [52615] [INFO] Worker exiting (pid: 52615)
+[2021-01-12 07:14:09 +0000] [52611] [INFO] Handling signal: term
+[2021-01-12 07:14:09 +0000] [52611] [INFO] Shutting down: Master
+[2021-01-12 07:14:09 +0000] [52609] [INFO] Shutting down: Master
+[2021-01-12 07:14:09 +0000] [52610] [INFO] Shutting down: Master
+[2021-01-12 07:14:15 +0000] [137338] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137338] [INFO] Listening at: http://0.0.0.0:5106 (137338)
+[2021-01-12 07:14:15 +0000] [137338] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137330] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137330] [INFO] Listening at: http://0.0.0.0:4001 (137330)
+[2021-01-12 07:14:15 +0000] [137330] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137335] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137335] [INFO] Listening at: http://0.0.0.0:5103 (137335)
+[2021-01-12 07:14:15 +0000] [137335] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137336] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137336] [INFO] Listening at: http://0.0.0.0:5104 (137336)
+[2021-01-12 07:14:15 +0000] [137336] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137332] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137332] [INFO] Listening at: http://0.0.0.0:5100 (137332)
+[2021-01-12 07:14:15 +0000] [137332] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137343] [INFO] Booting worker with pid: 137343
+[2021-01-12 07:14:15 +0000] [137346] [INFO] Booting worker with pid: 137346
+[2021-01-12 07:14:15 +0000] [137344] [INFO] Booting worker with pid: 137344
+[2021-01-12 07:14:15 +0000] [137347] [INFO] Booting worker with pid: 137347
+[2021-01-12 07:14:15 +0000] [137348] [INFO] Booting worker with pid: 137348
+[2021-01-12 07:14:15 +0000] [137334] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137334] [INFO] Listening at: http://0.0.0.0:5102 (137334)
+[2021-01-12 07:14:15 +0000] [137334] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137333] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137331] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137331] [INFO] Listening at: http://0.0.0.0:4002 (137331)
+[2021-01-12 07:14:15 +0000] [137331] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137352] [INFO] Booting worker with pid: 137352
+[2021-01-12 07:14:15 +0000] [137333] [INFO] Listening at: http://0.0.0.0:5101 (137333)
+[2021-01-12 07:14:15 +0000] [137333] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137329] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137353] [INFO] Booting worker with pid: 137353
+[2021-01-12 07:14:15 +0000] [137329] [INFO] Listening at: http://0.0.0.0:4000 (137329)
+[2021-01-12 07:14:15 +0000] [137329] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137354] [INFO] Booting worker with pid: 137354
+[2021-01-12 07:14:15 +0000] [137356] [INFO] Booting worker with pid: 137356
+[2021-01-12 07:14:15 +0000] [137337] [INFO] Starting gunicorn 20.0.4
+[2021-01-12 07:14:15 +0000] [137337] [INFO] Listening at: http://0.0.0.0:5105 (137337)
+[2021-01-12 07:14:15 +0000] [137337] [INFO] Using worker: sync
+[2021-01-12 07:14:15 +0000] [137358] [INFO] Booting worker with pid: 137358
