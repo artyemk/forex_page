@@ -1,0 +1,219 @@
+.customSelect { 
+	color:#777777;
+	cursor:pointer;
+	border:1px solid #dedede;
+	background:none;
+	width:100%;
+	height:29px;
+	text-align:left;
+	font:normal 14px/14px "Pt Sans", Tahoma, Geneva, sans-serif;
+	position:relative;
+	padding:7px 0 0 6px;
+	box-sizing:border-box;
+}	
+.select_box .customSelect{ 
+	color:#282828;
+	cursor:pointer;
+	border:0px;
+	background:none;
+	width:100%;
+	height:25px;
+	text-align:left;
+	font:700 24px/24px Roboto, Arial, Helvetica, sans-serif;
+	position:relative;
+	margin:1px 0 0 12px;
+	padding:0px;
+}
+
+.customSelect .selectedValue {
+	height:25px;
+	box-sizing:border-box;
+	outline:none;
+}
+.select_box .customSelect .selectedValue {
+	height:25px;
+	box-sizing:border-box;
+	outline:none;
+}
+
+.customSelect .selectList {
+	z-index: 999;
+	position: absolute;
+	right: -999em;
+	top: -999em;
+	background:#fff;
+	border:1px solid #dedede;
+	width:100%;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+.select_box .customSelect .selectList {
+	z-index: 999;
+	position: absolute;
+	right: -999em;
+	top: -999em;
+	background:#fff;
+	border:1px solid #dedede;
+	border-top:0px;
+	margin:5px 0 0;
+	width:82px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+.select_box .customSelect .selectList:before{
+	content:'';
+	background:url(../../../images/theme/default/select_corner.png) no-repeat;
+	height:7px;
+	width:74px;
+	position:absolute;
+	top:-7px;
+	right:-1px;
+}
+
+.customSelect.select-open .selectList {
+	left: -1px !important;
+	top: auto !important;
+}
+.select_box .customSelect.select-open .selectList {
+	left:auto !important;
+	right: -26px !important;
+	top: auto !important;
+}
+
+.customSelect .selectList dl.defaultScrollbar {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 240px;
+}
+
+.customSelect dl, .customSelect dd {
+	margin: 0;
+}
+
+.customSelect dd {
+	zoom: 1;
+	cursor: pointer;
+	margin-bottom:1px;
+}
+
+.customSelect .selected,
+.customSelect .selectList dd:hover{
+	background:#efeff0;
+}
+.select_box .customSelect .selected,
+.select_box .customSelect .selectList dd:hover{
+	background:#d36f0d;
+	color:#fff;
+}
+
+.customSelect dd {
+	padding: 4px 6px;
+	color:#777777;
+	font:normal 14px/14px "Pt Sans", Tahoma, Geneva, sans-serif;
+} 
+.select_box .customSelect dd {
+	padding: 4px 10px;
+	color:#000;
+	font:normal 12px/14px "Pt Sans", Tahoma, Geneva, sans-serif;
+}
+
+.customSelect dd:first-child{
+	margin-top:1px;
+}
+.select_box .customSelect dd:first-child{
+	margin-top:4px;
+}
+
+.select_box .customSelect dd:last-child{
+	margin-bottom:4px;
+}
+
+.hasJS select.custom {
+	position: absolute;
+	left: -999em;
+}
+
+.customSelect.disabled .selectedValue {
+	border: 1px solid #ccc;
+	color: #ccc;
+	cursor: default;
+}
+.select_box .customSelect.disabled .selectedValue {
+	border: 1px solid #ccc;
+	color: #ccc;
+	cursor: default;
+}
+
+.customSelect .caret{
+	display: block;
+	width: 20px;
+	height: 27px;
+	z-index:100;
+	background:#f2f2f2;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.select_box .customSelect .caret{
+	display: block;
+	width: 15px;
+	height: 15px;
+	z-index:100;
+	background:none;
+}
+
+.customSelect .selectValueWrap .caret:after{
+	border-top:7px solid #5b5b5b;
+	border-left:5px solid transparent;
+	border-right:5px solid transparent;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	cursor: pointer;
+	z-index:900;
+	content:'';
+	height:0;
+	width:0;
+}
+.select_box .customSelect .selectValueWrap .caret{
+	background:url(../../../images/theme/default/currency-caret.png) no-repeat;
+	position: absolute;
+	top: 5px;
+	right: 3px;
+	cursor: pointer;
+	z-index:900;
+	width: 15px;
+	height: 15px;
+	border:0px;
+}
+.select_box .customSelect .selectValueWrap .caret:after{
+	display:none;
+}
+
+.customSelect .jspPane {
+	overflow-x: hidden;
+	width:100% !important;
+}
+
+.customSelect .jspVerticalBar {
+	background: none;
+	width: 5px;
+	right:2px;
+}
+
+.customSelect .jspHorizontalBar {
+	height: 0;
+	overflow: hidden;
+}
+
+.customSelect .jspTrack {
+	background: none;
+	right: 0px;
+}
+
+.customSelect .jspDrag {
+	border-radius:5px;
+	background:#999;
+}
