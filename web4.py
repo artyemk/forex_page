@@ -26,7 +26,7 @@ def home():
 def insert_comment():
     print(request.form)
     db.fcomments.insert_one({ "date" : datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "id" : uuid.uuid4().hex, "textup" : request.form.get("textUp"), "textdown" : request.form.get("textDown"), "name" : request.form.get('name'), "comment" : request.form.get('comment') })
-    return redirect("/")
+    return redirect("/wolframinvest")
 
 @app.route("/delete_comment")
 def delete_comment():
