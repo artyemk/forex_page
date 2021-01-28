@@ -4,6 +4,10 @@ import uuid
 app = Flask(__name__,static_url_path='',static_folder='')
 app.secret_key = 'the random string'
 
+@app.route("/")
+def rdir():
+    return redirect('/wolframinvest_article')
+
 @app.route("/wolframinvest_article")
 def home():
     return render_template('kommers.html')

@@ -4,6 +4,11 @@ import uuid
 app = Flask(__name__,static_url_path='',static_folder='')
 app.secret_key = 'the random string'
 
+@app.route("/")
+def rdir():
+    return redirect('/blackrock_wolfram')
+
+
 @app.route("/blackrock_wolfram")
 def home():
     return render_template('blackrock-sees-rip-van-winkle-risks-as-globalization-unwinds.html')
