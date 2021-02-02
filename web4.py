@@ -5,8 +5,8 @@ from datetime import datetime, timedelta, date
 import uuid
 
 # db = MongoClient().forex
-db = MongoClient("mongodb://forex:4kFNO7kgWcP8@127.0.0.1/forex").forex
-# db = MongoClient().forex
+# db = MongoClient("mongodb://forex:4kFNO7kgWcP8@127.0.0.1/forex").forex
+db = MongoClient().forex
 
 app = Flask(__name__,static_url_path='',static_folder='')
 app.secret_key = 'the random string'
