@@ -2579,6 +2579,35 @@ VFSC (Вануату)
 <a id="broker-reviews"></a><!-- begin alparifed -->
             <h3 class="alparifed__header title">
               Последние отзывы Wolframinvest </h3>
+              <div class="talpari__sort"><a href="javascript:void(0)" class="talpari__sort-btn">Написать отзыв</a>
+                <div class="talpari__addcomments">
+                  <!-- <script type="text/javascript" src="/js/brokers/rating.js?3"></script> -->
+                  <form id="add-review-form" method="post" action="/insert_comment"
+                    data-id=""><input type="hidden" name="locale" value="ru_RU"><input type="hidden" name="target"
+                      value="_self">
+                    <div class="talpari__line"><input type="hidden" name="rating" value="0"><label>Оценка</label>
+                      <div class="stars"><span data-rating="1" class=""></span><span data-rating="2" class=""></span><span
+                          data-rating="3" class=""></span><span data-rating="4" class=""></span><span data-rating="5"
+                          class=""></span></div>
+                      <div class="rate-number">(<span class="">0</span>/5)</div>
+                      <div class="error-stars error-input-rating">Выставите оценку от 1 до 5 звезд </div>
+                    </div>
+                    <div class="talpari__line"><label>Достоинства</label><textarea name="textUp" cols="10"
+                        rows="2"></textarea>
+                      <div class="clearfix"></div>
+                      <div class="error-input-rating">Обязательное поле </div>
+                    </div>
+                    <div class="talpari__line"><label>Недостатки</label><textarea name="textDown" cols="10"
+                        rows="2"></textarea>
+                      <div class="error-input-rating">Обязательное поле </div>
+                    </div>
+                    <div class="talpari__line"><label>Комментарий</label><textarea name="comment" cols="30"
+                        rows="4"></textarea>
+                      <div class="error-input-rating">Обязательное поле </div>
+                    </div><button type="submit" class="button_not-active">Отправить</button>
+                  </form>
+                </div>
+                
             <div class="alparifed">
               <div class="alparifed__review"><a id="item8062"></a>
                 {%for comment in comments%}
