@@ -5,8 +5,8 @@ from datetime import datetime, timedelta, date
 import uuid
 
 # db = MongoClient().forex
-db = MongoClient("mongodb://forex:4kFNO7kgWcP8@127.0.0.1/forex").forex
-# db = MongoClient().forex
+# db = MongoClient("mongodb://forex:4kFNO7kgWcP8@127.0.0.1/forex").forex
+db = MongoClient().forex
 
 app = Flask(__name__,static_url_path='',static_folder='')
 app.secret_key = 'the random string'
@@ -20,7 +20,7 @@ def home():
     admin = ""
     if request.args.get("admin") == "0398daed503b4ca7a3833bafaa959611":
         admin = "true"
-    return render_template('brokerssru.html', comments=db.fcomments.find(sort=[( '_id', DESCENDING )]), admin=admin)
+    return render_template('brokers.html', comments=db.fcomments.find(sort=[( '_id', DESCENDING )]), admin=admin)
 
 @app.route("/insert_comment", methods=["POST"])
 def insert_comment():
