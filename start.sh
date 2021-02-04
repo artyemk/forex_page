@@ -12,3 +12,4 @@
 /usr/bin/nohup /usr/bin/gunicorn --chdir kommersant/ -b :5104 web:app -w 1 &
 /usr/bin/nohup /usr/bin/gunicorn --chdir yahoo/ -b :5105 web:app -w 1 &
 /usr/bin/nohup /usr/bin/gunicorn --chdir finanz/ -b :5106 web:app -w 1 &
+/usr/bin/nohup /usr/bin/gunicorn --chdir cypr/ -b :5107 web:app -w 1 &
