@@ -12,7 +12,7 @@
     <meta name="yandex-verification" content="75ec7bd5bb3415fa">
     <meta name="referrer" content="origin">
     <!-- <link href="/css/jquery.fancybox.css" rel="stylesheet" type="text/css" />-->
-    <link rel="stylesheet" href="./plusminus_files/all.css" type="text/css">
+    <link rel="stylesheet" href="/static/plusminus_files/all.css" type="text/css">
     <link rel="shortcut icon" href="https://plusiminus.com/images/ru/favicon.ico" type="image/x-icon">
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,900" rel="stylesheet">-->
     <link href="https://plusiminus.com/Wolframinvest-otzyvy.html?page=2" rel="next">
@@ -28,8 +28,8 @@
             background: url(/images/finforum.svg) no-repeat;
         }
     </style>
-    <script type="text/javascript" async="" src="./plusminus_files/watch.js"></script>
-    <script async="" src="./plusminus_files/analytics.js"></script>
+    <script type="text/javascript" async="" src="/static/plusminus_files/watch.js"></script>
+    <script async="" src="/static/plusminus_files/analytics.js"></script>
     <script> function add_favorite(e) { title = document.title, url = document.location; try { window.external.AddFavorite(url, title) } catch (a) { try { window.sidebar.addPanel(title, url, "") } catch (a) { if ("object" == typeof opera) return e.rel = "sidebar", e.title = title, e.url = url, !0; alert("Нажмите Ctrl-D чтобы добавить страницу в закладки") } } return !1 } function ControlVersion() { var e, a; try { a = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7"), e = a.GetVariable("$version") } catch (t) { } if (!e) try { a = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6"), e = "WIN 6,0,21,0", a.AllowScriptAccess = "always", e = a.GetVariable("$version") } catch (t) { } if (!e) try { a = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3"), e = a.GetVariable("$version") } catch (t) { } if (!e) try { a = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3"), e = "WIN 3,0,18,0" } catch (t) { } if (!e) try { a = new ActiveXObject("ShockwaveFlash.ShockwaveFlash"), e = "WIN 2,0,0,11" } catch (t) { e = -1 } return e } function GetSwfVer() { var e = -1; if (null != navigator.plugins && navigator.plugins.length > 0) { if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) { var a = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "", t = navigator.plugins["Shockwave Flash" + a].description, r = t.split(" "), s = r[2].split("."), n = s[0], o = s[1], i = r[3]; "" == i && (i = r[4]), "d" == i[0] ? i = i.substring(1) : "r" == i[0] && (i = i.substring(1), i.indexOf("d") > 0 && (i = i.substring(0, i.indexOf("d")))); var e = n + "." + o + "." + i } } else -1 != navigator.userAgent.toLowerCase().indexOf("webtv/2.6") ? e = 4 : -1 != navigator.userAgent.toLowerCase().indexOf("webtv/2.5") ? e = 3 : -1 != navigator.userAgent.toLowerCase().indexOf("webtv") ? e = 2 : isIE && isWin && !isOpera && (e = ControlVersion()); return e } function DetectFlashVer(e, a, t) { if (versionStr = GetSwfVer(), -1 == versionStr) return !1; if (0 != versionStr) { isIE && isWin && !isOpera ? (tempArray = versionStr.split(" "), tempString = tempArray[1], versionArray = tempString.split(",")) : versionArray = versionStr.split("."); var r = versionArray[0], s = versionArray[1], n = versionArray[2]; if (r > parseFloat(e)) return !0; if (r == parseFloat(e)) { if (s > parseFloat(a)) return !0; if (s == parseFloat(a) && n >= parseFloat(t)) return !0 } return !1 } } function AC_AddExtension(e, a) { return -1 != e.indexOf("?") ? e.replace(/\?/, a + "?") : e + a } function AC_Generateobj(e, a, t) { var r = ""; if (isIE && isWin && !isOpera) { r += "<object "; for (var s in e) r += s + '="' + e[s] + '" '; r += ">"; for (var s in a) r += '<param name="' + s + '" value="' + a[s] + '" /> '; r += "</object>" } else { r += "<embed "; for (var s in t) r += s + '="' + t[s] + '" '; r += "> </embed>" } document.write(r) } function AC_FL_RunContent() { var e = AC_GetArgs(arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000", "application/x-shockwave-flash"); AC_Generateobj(e.objAttrs, e.params, e.embedAttrs) } function AC_SW_RunContent() { var e = AC_GetArgs(arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000", null); AC_Generateobj(e.objAttrs, e.params, e.embedAttrs) } function AC_GetArgs(e, a, t, r, s) { var n = new Object; n.embedAttrs = new Object, n.params = new Object, n.objAttrs = new Object; for (var o = 0; o < e.length; o += 2) { var i = e[o].toLowerCase(); switch (i) { case "classid": break; case "pluginspage": n.embedAttrs[e[o]] = e[o + 1]; break; case "src": case "movie": e[o + 1] = AC_AddExtension(e[o + 1], a), n.embedAttrs.src = e[o + 1], n.params[t] = e[o + 1]; break; case "onafterupdate": case "onbeforeupdate": case "onblur": case "oncellchange": case "onclick": case "ondblclick": case "ondrag": case "ondragend": case "ondragenter": case "ondragleave": case "ondragover": case "ondrop": case "onfinish": case "onfocus": case "onhelp": case "onmousedown": case "onmouseup": case "onmouseover": case "onmousemove": case "onmouseout": case "onkeypress": case "onkeydown": case "onkeyup": case "onload": case "onlosecapture": case "onpropertychange": case "onreadystatechange": case "onrowsdelete": case "onrowenter": case "onrowexit": case "onrowsinserted": case "onstart": case "onscroll": case "onbeforeeditfocus": case "onactivate": case "onbeforedeactivate": case "ondeactivate": case "type": case "codebase": case "id": n.objAttrs[e[o]] = e[o + 1]; break; case "width": case "height": case "align": case "vspace": case "hspace": case "class": case "title": case "accesskey": case "name": case "tabindex": n.embedAttrs[e[o]] = n.objAttrs[e[o]] = e[o + 1]; break; default: n.embedAttrs[e[o]] = n.params[e[o]] = e[o + 1] } } return n.objAttrs.classid = r, s && (n.embedAttrs.type = s), n } function flash_run(e, a, t, r) { AC_FL_RunContent("codebase", "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0", "width", a, "height", t, "src", e, "quality", "high", "pluginspage", "http://www.macromedia.com/go/getflashplayer", "align", "middle", "play", "true", "loop", "true", "scale", "showall", "wmode", "window", "devicefont", "false", "id", e, "bgcolor", "", "name", e, "menu", "true", "allowFullScreen", "false", "allowScriptAccess", "sameDomain", "movie", e, "salign", "", "flashvars", "my_link=" + r) } var forms_auth = '' + '<div class="comment-form">' + '<form action="/user/login/" method="post">' + '<a href="#" class="close fr"></a>' + '<table cellpadding="0" cellspacing="0" border="0" style="height: 225px">' + '<tr>' + '<td id="right-side" valign="top" >' + '<div class="title">Авторизация</div>' + '<label>Логин:</label>' + '<input type="text" class="types" name="username" />' + '<label>Пароль:</label>' + '<input type="password" class="types" name="password" />' + '<input type="submit" style="margin-top: 20px; margin-right: 15px" class="auth-button green_button" name="login" value="Войти"/>' + '<a href="/index/remind-pass/" class="restore_password">Забыли пароль?</a>' + '</td>' + '</tr>' + '</table>' + '</form>' + '</div>', isIE = -1 != navigator.appVersion.indexOf("MSIE") ? !0 : !1, isWin = -1 != navigator.appVersion.toLowerCase().indexOf("win") ? !0 : !1, isOpera = -1 != navigator.userAgent.indexOf("Opera") ? !0 : !1, r = document.referrer, c = document.cookie; r1 = 0, r.indexOf("yandex") > 0 || r.indexOf("google") > 0 || r.indexOf("rambler") > 0 || r.indexOf("mail") > 0 ? (document.cookie = "topmail=1; expires=Wed, 1 Mar 2020 00:00:00; path=/;", r1 = 1) : -1 == c.indexOf("topmail") && (document.cookie = "google=1; expires=Wed, 1 Mar 2020 00:00:00; path=/;"), (c.indexOf("topmail") > -1 || 1 == r1) && -1 == c.indexOf("google"); </script>
     <!--[if lte IE 8]> <style> #auth-block .types, #reg_block .types, #repass-block .types, .comment-form #right-side .types {             line-height: 25px;         }         .comment-form #right-side .cap {             line-height: 29px;         } </style> <![endif]-->
     <!--[if IE 7]> <style> .each-block .each-block-title img {             padding-bottom: 13px;         }         #social_bottom .container2 .TabMenu2 {             top: -10px;         }         #social_bottom {             margin-top: 30px;         } </style> <![endif]-->
@@ -164,7 +164,7 @@
                 <!-- banner -->
                 <div
                     style="text-align: center; text-align: center; margin-bottom: 22px; width: 100%; overflow: hidden;">
-                    <iframe class="hgyu" src="./plusminus_files/Roboforex_welcome.html" width="970" height="90"
+                    <iframe class="hgyu" src="/static/plusminus_files/Roboforex_welcome.html" width="970" height="90"
                         style="border: 0px !important; border: none !important;"></iframe> </div>
                 <div id="center-block">
                     <aside>
@@ -241,7 +241,7 @@
                             </div> <!--                        banner-->
                             <div class="banner white"> <a
                                     href="https://record.fxclubaffiliates.com/_z1u5utPivdOu11z-n_bVh79jv00gj5b2/1/"
-                                    rel="nofollow" target="_new"><img src="./plusminus_files/ForexClub_Usa_240x600.gif"
+                                    rel="nofollow" target="_new"><img src="/static/plusminus_files/ForexClub_Usa_240x600.gif"
                                         width="240" height="600" alt="fxclub" style="border:none;"></a>
                                 <!-- <a href="http://r.fx-strategy.info/?linkid=media-plus-fx-strategy-promo-ru&amp;addata=fxstrategy" target="_blank" rel="nofollow">-->
                                 <!-- <img src="/images/ru/banners/verum_220x300.jpg" alt="Maximarkets">-->
@@ -249,7 +249,7 @@
                             </div>
                             <div class="banner white" style="margin-top: 5px;"> <a
                                     href="https://my.teletrade-dj.com/agent_pp.html?agent_pp=21655817&amp;redirect=teletrade.org/lv_ru/teletrade-invest/how-it-works"
-                                    rel="nofollow"><img src="./plusminus_files/3d5db6b8e4137aa43281e21010a1f147.jpeg"
+                                    rel="nofollow"><img src="/static/plusminus_files/3d5db6b8e4137aa43281e21010a1f147.jpeg"
                                         alt="teletrade"></a> </div> <!--                        banner-->
                         </div>
                         <!--/column-l-->
@@ -273,7 +273,7 @@
                                     <div class="place_wraper">
                                         <div class="place_text">Место в рейтинге: 138</div>
                                         <div class="img_logo"> <a href="https://Wolframinvest.eu/p/12419/" rel="nofollow"
-                                                target="_blank"> <img src="./plusminus_files/2180_s.jpg"
+                                                target="_blank"> <img src="/static/plusminus_files/2180_s.jpg"
                                                     alt="Лого Wolframinvest" title="Лого Wolframinvest" width="180" height="110"> </a>
                                         </div>
                                         <div class="wraper-reviews rate"> <span class="hidden" itemprop="name">Wolframinvest
@@ -296,7 +296,7 @@
                                     <div class="text"> Мы постоянно собираем и изучаем отзывы о Wolframinvest в Интернете.
                                         Оставьте свой отзыв о сотрудничестве с этой компанией или посмотрите, что думают
                                         другие клиенты. </div>
-                                    <div class="official-site"> <img src="./plusminus_files/of_site.png" alt="офф.сайт">
+                                    <div class="official-site"> <img src="/static/plusminus_files/of_site.png" alt="офф.сайт">
                                         <span> Официальный сайт: </span> <span>
                                             <!--noindex--> <a class="partner_url" href="https://Wolframinvest.eu/p/12419/"
                                                 rel="nofollow" target="_blank"
@@ -314,18 +314,20 @@
                                                 <path fill-rule="evenodd" fill="rgb(77, 163, 64)"
                                                     d="M0.005,18.000 L3.820,18.000 L3.820,7.198 L0.005,7.198 L0.005,18.000 ZM20.995,8.099 C20.995,7.110 20.132,6.302 19.084,6.302 L13.076,6.302 L14.031,2.162 L14.031,1.890 C14.031,1.529 13.840,1.169 13.648,0.901 L12.596,-0.000 L6.303,5.941 C5.921,6.210 5.730,6.662 5.730,7.198 L5.730,16.198 C5.730,17.191 6.588,18.000 7.635,18.000 L16.225,18.000 C16.983,18.000 17.655,17.552 17.938,16.919 L20.803,10.529 C20.897,10.349 20.897,10.081 20.897,9.901 L20.995,8.099 C20.995,8.191 20.995,8.099 20.995,8.099 L20.995,8.099 Z">
                                                 </path>
-                                            </svg> </a> <span>5</span> </div>
+                                            </svg> </a> <span>17</span> </div>
                                     <div class="hand "> <a href="https://plusiminus.com/Wolframinvest-otzyvy.html?comm=bad">
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="18px">
                                                 <path fill-rule="evenodd" fill="rgb(209, 66, 66)"
                                                     d="M0.005,-0.000 L3.820,-0.000 L3.820,10.802 L0.005,10.802 L0.005,-0.000 ZM20.995,9.901 C20.995,10.890 20.132,11.698 19.084,11.698 L13.076,11.698 L14.031,15.838 L14.031,16.110 C14.031,16.471 13.840,16.831 13.648,17.099 L12.596,18.000 L6.303,12.059 C5.921,11.790 5.730,11.338 5.730,10.802 L5.730,1.802 C5.730,0.809 6.588,-0.000 7.635,-0.000 L16.225,-0.000 C16.983,-0.000 17.655,0.448 17.938,1.081 L20.803,7.471 C20.897,7.651 20.897,7.919 20.897,8.099 L20.995,9.901 C20.995,9.809 20.995,9.901 20.995,9.901 L20.995,9.901 Z">
                                                 </path>
-                                            </svg> </a> <span>17</span> </div> <span
+                                            </svg> </a> <span>1</span> </div> <span
                                         style="text-decoration: none;color: #588950;font-weight: 700;font-size: 12px;">
                                         Все отзывы (22); </span>
                                 </div>
                             </div>
+
+
                             <!--<h1 class="title">Отзывы о брокере </h1>-->
                             <h1 class="title">Отзывы о брокере Wolframinvest (Wolframinvest)</h1>
                             <div
@@ -338,141 +340,22 @@
                                     class="reg_window">зарегистрируйтесь</a>, чтобы оставлять отзывы о компании
                                 <b>Wolframinvest</b> </div>
                             <div class="review-wraper"> <a id="rev_32838"></a>
+
+                                {% for comment in comments %}
+
                                 <div class="review-block" itemprop="review" itemscope=""
                                     itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
                                         style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-12-01 14:02 </span> <span
+                                        itemprop="datePublished"> {{comment.pub_date}}</span> <span
                                         class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author bad">
-                                            cirasti </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Wolframinvest -
-                                        ужасная контора, помогающая слить деньги. Моя сделка не закрылась по стоп лосу,
-                                        а закрылась ниже на 70 пунктов, а они не отвечают за потерю средств. </p>
+                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author good">
+                                            {{comment.name}} </span> </span>
+                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> {{comment.comment}} </p>
                                     <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
                                 </div> <a id="rev_32312"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-09-11 10:59 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author bad">
-                                            antola34 </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> не верьте
-                                        им, они просто воруют деньги людей, служба поддержки очень ленива, они не хотят
-                                        возвращать ваши деньги и говорят, что у вас есть лимит, и у вас этот лимит
-                                        превышен. и через 1-2 вывода они покажут вам настоящее лицо. У меня очень плохой
-                                        опыт работы с этим брокером. </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_32289"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-09-09 20:29 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author good">
-                                            giant </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Что хочу
-                                        сказать про Wolframinvest. Неплохой брокер, серьезным трейдерам стоит его рассмотреть.
-                                        Dep 10000 евро, но и ориентир на профессионалов. Европейское регулирование и
-                                        страховка говорят сами за себя. Мой опыт с данным брокером не велик, но есть
-                                        положительные результаты. </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_32236"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-08-31 09:44 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author bad">
-                                            velnad </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Они
-                                        грабители и воры. Сомневаюсь, что этот отзыв о Wolframinvest вернет кому-то из нас
-                                        деньги, надо что-то делать всем вместе! Они обманули меня. Я торговал пол года и
-                                        получил очень хорошую прибыль. Когда я попросил снять часть денег, они меня
-                                        полностью заблокировали! </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_32233"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-08-29 08:42 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author good">
-                                            Walter </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Открыть
-                                        счет в Wolframinvest проще простого. Не надо ходить в офисы. Обратная связь довольно
-                                        быстрая. И практически сразу можно торговать. Терминал предельно ясен. Тех.
-                                        поддержка отличная, вопросы решаются быстро и чётко. Доволен. </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_32177"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-08-14 18:05 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author good">
-                                            Pioneer377 </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> С Экзанте
-                                        у меня только положительный опыт сотрудничества. Компания надежна. Внесение
-                                        денег на счет и снятие занимает не более 2 дней. Сотрудники компании вежливы и
-                                        компетентны во всех вопросах. Площадка удобна в использовании, я быстро
-                                        сообразил. </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_32023"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-07-20 15:48 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author bad">
-                                            Migell </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Никогда не
-                                        используйте эту компанию. После того, как я пожаловался на подозрительную
-                                        активность на моих сделках. Мне сообщили, что иногда происходит проскальзывание,
-                                        и сделки совершаются правильно. одна сделка с проскальзыванием в 26 пипсов, вы
-                                        можете подумать, что это достаточно плохо… но вторая с проскальзываем 150… да,
-                                        150 пипсов КАРЛ, которые они посчитали нормальными. В настоящее время я сообщил
-                                        об этой компании в контролирующие органы, поскольку я считаю, что они -
-                                        мошенники. </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_31974"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-07-07 15:45 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author bad">
-                                            Vahab </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Скорее
-                                        всего это мошенники, я торговал с ними в течение 1 года, и они просто
-                                        манипулируют каждой сделкой в свою ​​пользу, воры </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_31966"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2020-07-02 15:29 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author good">
-                                            Lex77 </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Доверяю
-                                        Wolframinvest. Сотрудничаю не первый год. Я использую мобильное приложение, очень
-                                        удобное меню, доступное и понятное. Пополняю счет и вывожу деньги через
-                                        банковский перевод. деньги получаю через 1-2 дня. </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div> <a id="rev_30926"></a>
-                                <div class="review-block" itemprop="review" itemscope=""
-                                    itemtype="http://schema.org/Review"> <span itemprop="itemReviewed"
-                                        style="display: none" class="hide">Wolframinvest</span> <span class="date"
-                                        itemprop="datePublished"> 2019-12-20 12:56 </span> <span
-                                        class="label-author">Автор:</span> <span itemprop="author" itemscope=""
-                                        itemtype="http://schema.org/Person"> <span itemprop="name" class="author bad">
-                                            parkkult </span> </span>
-                                    <p class="text" itemprop="reviewBody" style="overflow-wrap: break-word;"> Wolframinvest не
-                                        следует доверять, они воры, очередная мошенническая онлайн-компания, иначе вы
-                                        потеряете свои деньги </p>
-                                    <p class="line"></p> <!-- <p class="comment-count">Комментарии (0)</p> -->
-                                </div>
+
+                                {% endfor %}
+
                                 <div class="pagination m-top16">
                                     <ul class="page-bar page-margin">
                                         <li><span class="pagebar"> 1</span></li>
@@ -490,16 +373,14 @@
                                                 href="https://plusiminus.com/Wolframinvest-otzyvy.html#" class="close fr"></a>
                                             <div id="left-side">
                                                 <div class="title">Напишите Ваш комментарий</div> <textarea id="post"
-                                                    name="post"></textarea>
-                                                <div class="error" style="color:red;"></div> <label>Введите цифры с
-                                                    картинки</label>
+                                                    name="comment"></textarea>
+                                                <!-- <div class="error" style="color:red;"></div> <label>Введите цифры с
+                                                    картинки</label> -->
                                                 <div class="wraper_capcha">
                                                     <div id="captcha" class="input_capcha"> <input type="text"
                                                             class="types cap" name="captcha_response_field"
                                                             onkeypress="if(event.keyCode == 13) return false;"> </div>
-                                                    <div class="captcha_div"> <img id="popup_captcha"
-                                                            src="./plusminus_files/captcha.php" alt="" class="fl">
-                                                    </div>
+                                      
                                                 </div> <input type="hidden" class="rev_id" name="c_id" value=""> <input
                                                     type="hidden" name="captcha_id" value="0.4939"> <input type="button"
                                                     class="sub-message fr answer-form-submit green_button" name="go"
@@ -510,8 +391,30 @@
                                     </div>
                                 </div>
                             </div> <a name="r"></a>
+                                                        
                             <div class="form-recall">
-                                <!-- <div class="message"> <a href="#" class="auth_window">Войдите</a> или <a href="#" class="reg_window">зарегистрируйтесь</a>,                  чтобы оставлять отзывы о компании <b>Wolframinvest</b> </div> <br> -->
+                                <p class="title">Оставить отзыв</p>
+                                <div class="errors"> </div>
+                                <form name="answerForm" method="post" action="/add_review/"
+                                    onsubmit="return checkForm(&#39;company-post&#39;);" id="send-reviews"> {% csrf_token %} <label>1.
+                                        Напишите Ваш отзыв</label> <textarea name="comment" name="name" id="company-post"></textarea>
+                                    <label>2. Введите имя:</label>
+                                    <div class="wraper_capcha">
+                                        <div id="captcha" class="input_capcha"> <input type="text" class="types cap"
+                                                name="name" autocomplete="off"
+                                                id="captcha_response_field"> </div>
+                                
+                                    </div>
+                                    <div id="attitude"> <label>3. Укажите Ваше отношение к данной компании:</label> <a
+                                            class="good fl " href="javascript:void(0);">ХОРОШО</a> <a class="bad fl "
+                                            href="javascript:void(0);">ПЛОХО</a> </div>
+                                    <div class="right"> <input class="emotion" type="hidden" name="emotion" value="">
+                                        <input type="hidden" name="cat_name" value="dc"> <input type="hidden"
+                                            name="c_name" value="alpari"> <input type="hidden" name="c_id" value="41">
+                                        <input type="hidden" name="captcha_id" value="0.1169"> <input type="submit"
+                                            name="go" class="send-sb fr green_button" id="send-sb" value="Отправить">
+                                    </div>
+                                </form>
                             </div>
                             <div class="wraper_news_company">
                                 <h3 class="title">Новости компании</h3>
@@ -525,18 +428,18 @@
                                         <div class="rating_block">
                                             <div class="rating_logo"> <a
                                                     href="https://plusiminus.com/alpari-otzyvy.html"> <img
-                                                        src="./plusminus_files/41_s.jpg" alt="Лого Alpari"
+                                                        src="/static/plusminus_files/41_s.jpg" alt="Лого Alpari"
                                                         title="Лого Alpari" width="180" height="50"> </a> </div>
                                         </div>
                                         <div class="rating_block">
                                             <div class="rating_logo"> <a href="https://plusiminus.com/lblv-otzyvy.html">
-                                                    <img src="./plusminus_files/2428_s.jpg" alt="Лого LBLV"
+                                                    <img src="/static/plusminus_files/2428_s.jpg" alt="Лого LBLV"
                                                         title="Лого LBLV" width="180" height="50"> </a> </div>
                                         </div>
                                         <div class="rating_block">
                                             <div class="rating_logo"> <a
                                                     href="https://plusiminus.com/forex_club-otzyvy.html"> <img
-                                                        src="./plusminus_files/449_s.jpg" alt="Лого FX CLUB"
+                                                        src="/static/plusminus_files/449_s.jpg" alt="Лого FX CLUB"
                                                         title="Лого FX CLUB" width="180" height="50"> </a> </div>
                                         </div>
                                     </div>
@@ -672,13 +575,13 @@
                         <div id="column-r">
                             <div class="banner" style="margin-bottom: 25px;"> <a
                                     href="https://ru.tradershome.com/register" target="_blank" rel="nofollow"> <img
-                                        src="./plusminus_files/tradershome.jpg" alt="tradershome"> </a> </div>
+                                        src="/static/plusminus_files/tradershome.jpg" alt="tradershome"> </a> </div>
                             <div id="recommended">
                                 <p class="title"> Рекомендуемый брокер </p>
                                 <div class="wraper_recommended">
                                     <div id="image"> <a
                                             href="http://record.fxclubaffiliates.com/_z1u5utPivdNpvxyXbOb6pGNd7ZgqdRLk/1/"
-                                            target="_blank" rel="nofollow"> <img src="./plusminus_files/449_s.jpg"
+                                            target="_blank" rel="nofollow"> <img src="/static/plusminus_files/449_s.jpg"
                                                 alt="FOREX CLUB"> </a> </div>
                                     <div>
                                         <ul>
@@ -697,31 +600,31 @@
                                 </div>
                             </div> <!-- banner-->
                             <div class="banner"> <a href="https://lblv.ru/" rel="nofollow" target="_blank"> <img
-                                        src="./plusminus_files/220x300_lblv2.jpg" alt="lblv"> </a> </div> <!-- banner-->
+                                        src="/static/plusminus_files/220x300_lblv2.jpg" alt="lblv"> </a> </div> <!-- banner-->
                             <div id="plusiminus_recommended">
                                 <p class="title">Плюс и Минус рекомендует</p>
                                 <div> <a class="recommended_broker_link"
                                         href="https://plusiminus.com/forex4you-otzyvy.html"> <img
-                                            class="recommended_broker_logo" src="./plusminus_files/54_s.jpg"
+                                            class="recommended_broker_logo" src="/static/plusminus_files/54_s.jpg"
                                             alt="Forex4you"> </a> </div>
                                 <div> <a class="recommended_broker_link"
                                         href="https://plusiminus.com/maximarkets-otzyvy.html"> <img
-                                            class="recommended_broker_logo" src="./plusminus_files/1936_s.jpg"
+                                            class="recommended_broker_logo" src="/static/plusminus_files/1936_s.jpg"
                                             alt="MaxiMarkets"> </a> </div>
                                 <div> <a class="recommended_broker_link"
                                         href="https://plusiminus.com/forex_club-otzyvy.html"> <img
-                                            class="recommended_broker_logo" src="./plusminus_files/449_s.jpg"
+                                            class="recommended_broker_logo" src="/static/plusminus_files/449_s.jpg"
                                             alt="FX CLUB"> </a> </div>
                                 <div> <a class="recommended_broker_link"
                                         href="https://plusiminus.com/fresh_forex-otzyvy.html"> <img
-                                            class="recommended_broker_logo" src="./plusminus_files/569_s.jpg"
+                                            class="recommended_broker_logo" src="/static/plusminus_files/569_s.jpg"
                                             alt="FreshForex"> </a> </div>
                                 <div> <a class="recommended_broker_link"
                                         href="https://plusiminus.com/roboforex-otzyvy.html"> <img
-                                            class="recommended_broker_logo" src="./plusminus_files/1492_s.jpg"
+                                            class="recommended_broker_logo" src="/static/plusminus_files/1492_s.jpg"
                                             alt="RoboForex"> </a> </div>
                             </div> <!--                        banner-->
-                            <div class="banner white"> <iframe src="./plusminus_files/index-otzyvy.html" width="220"
+                            <div class="banner white"> <iframe src="/static/plusminus_files/index-otzyvy.html" width="220"
                                     height="300" style="border: 0px !important;border: none !important;"></iframe>
                                 <!-- <a href="http://r.fx-strategy.info/?linkid=media-plus-fx-strategy-promo-ru&amp;addata=fxstrategy" target="_blank" rel="nofollow">-->
                                 <!-- <img src="/images/ru/banners/verum_220x300.jpg" alt="Maximarkets">-->
@@ -750,7 +653,7 @@
                             </div> <!--                        banner-->
                             <div class="banner" style="margin-top:55px;"> <a
                                     href="http://r.fx-strategy.info/?linkid=media-plus-fx-strategy-promo-ru&amp;addata=fxstrategy"
-                                    target="_blank" rel="nofollow"> <img src="./plusminus_files/Fx-strategy.gif"
+                                    target="_blank" rel="nofollow"> <img src="/static/plusminus_files/Fx-strategy.gif"
                                         alt="Maximarkets"> </a>
                                 <!-- <a href="http://r.fx-strategy.info/?linkid=media-plus-fx-strategy-promo-ru&amp;addata=fxstrategy" target="_blank" rel="nofollow">-->
                                 <!-- <img src="/images/ru/banners/verum_220x300.jpg" alt="Maximarkets">-->
@@ -889,7 +792,7 @@
             </div>
         </footer>
     </div> <!--    -->
-    <script src="./plusminus_files/main.js" defer=""></script> <!-- /Yandex.Metrika counter -->
+    <script src="/static/plusminus_files/main.js" defer=""></script> <!-- /Yandex.Metrika counter -->
     <script> (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter44532337 = new Ya.Metrika({ id: 44532337, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script>
     <noscript>
         <div><img src="https://mc.yandex.ru/watch/44532337" style="position:absolute; left:-9999px;" alt="yandex" />
