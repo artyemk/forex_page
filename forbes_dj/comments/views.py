@@ -7,7 +7,7 @@ from django.utils import timezone
 logger = logging.getLogger(__name__)
 
 def index(request):
-    comments = Comment.objects.all()
+    comments = Comment.objects.all().order_by('-date')
     context = {
         'comments': comments,
     }
