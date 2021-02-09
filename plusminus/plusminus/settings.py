@@ -24,7 +24,7 @@ SECRET_KEY = 'bo_w5jn6)yuhjxy*1$c@y-ylwvhmsy*vjdft%nig!lct+-+bap'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["plusiminys.com"]
+ALLOWED_HOSTS = ["plusiminys.com", "www.plusiminys.com"]
 PORT=4003
 # Application definition
 

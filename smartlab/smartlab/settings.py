@@ -25,7 +25,7 @@ SECRET_KEY = 'sdcjvco_2@61(#gkb%wnuggs_&(_=nnaeg$47r-4@d_0reje!a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["smarts-lab.ru"]
+ALLOWED_HOSTS = ["smarts-lab.ru","www.smarts-lab.ru"]
 
 
 # Application definition

@@ -25,7 +25,7 @@ SECRET_KEY = 'h!odpin!^sfhp)*50pfshup3418fndz+e7n3pim63*20(^%0lt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['forex-retings.ru']
+ALLOWED_HOSTS = ['forex-retings.ru','www.forex-retings.ru']
 
 
 # Application definition
