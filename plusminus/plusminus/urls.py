@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.shortcuts import redirect
+from django.views.generic.base import TemplateView
 from comments import views
 
 urlpatterns = [
@@ -23,4 +24,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('comments/', include('comments.urls')),
     path('add_review/', views.get_name),
+    path(
+        "robots.txt",
+        TemplateView.as_view(template_name="robots.txt", content_type="text/plain"),
+    ),
+    path(
+        "sitemap.xml",
+        TemplateView.as_view(template_name="sitemap.xml", content_type="text/plain"),
+    ),
 ]

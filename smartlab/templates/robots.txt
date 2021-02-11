@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://smarts-lab.ru/sitemap.xml
+Host: smarts-lab.ru

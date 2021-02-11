@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://plusiminys.com/sitemap.xml
+Host: https://plusiminys.com
