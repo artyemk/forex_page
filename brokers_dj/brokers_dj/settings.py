@@ -25,7 +25,7 @@ SECRET_KEY = 'u=k(f)t()8wbun1$(r(qv38ecfr)qhnb7j#el6_$5rejl=4_-8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['brokkers.ru', 'www.brokkers.ru']
 
 
 # Application definition
