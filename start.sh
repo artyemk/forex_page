@@ -2,7 +2,6 @@
 
 /usr/bin/nohup /usr/bin/gunicorn -b :4000 web:app -w 1 &
 /usr/bin/nohup /usr/bin/gunicorn -b :4001 web2:app -w 1 &
-/usr/bin/nohup /usr/bin/gunicorn -b :4002 web3:app -w 1 &
 
 
 /usr/bin/nohup /usr/bin/gunicorn --chdir forbes/ -b :5100 web:app -w 1 &
@@ -13,3 +12,4 @@
 /usr/bin/nohup /usr/bin/gunicorn --chdir yahoo/ -b :5105 web:app -w 1 &
 /usr/bin/nohup /usr/bin/gunicorn --chdir finanz/ -b :5106 web:app -w 1 &
 /usr/bin/nohup /usr/bin/gunicorn --chdir cypr/ -b :5107 web:app -w 1 &
+/usr/bin/nohup /usr/bin/gunicorn --chdir fcaorg/ -b :5108 web:app -w 1 &
