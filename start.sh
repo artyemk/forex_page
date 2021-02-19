@@ -2,6 +2,7 @@
 
 /usr/bin/nohup /usr/bin/gunicorn -b :4000 web:app -w 1 &
 /usr/bin/nohup /usr/bin/gunicorn -b :4001 web2:app -w 1 &
+/usr/bin/nohup /usr/bin/gunicorn -b :4002 web3:app -w 1 &
 
 
 /usr/bin/nohup /usr/bin/gunicorn --chdir forbes/ -b :5100 web:app -w 1 &
